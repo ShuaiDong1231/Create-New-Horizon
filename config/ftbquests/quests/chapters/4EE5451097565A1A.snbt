@@ -1,0 +1,866 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4EE5451097565A1A"
+	group: "71414D2BDE140EDA"
+	icon: "gtceu:neutronium_credit"
+	id: "4EE5451097565A1A"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			dependencies: ["5BA86B01337A91D5"]
+			icon: "minecraft:iron_ingot"
+			id: "2D629AE957D81663"
+			rewards: [{
+				auto: "enabled"
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"minecraft:iron_ingot\"}]}"
+				elevate_perms: true
+				icon: "minecraft:iron_ingot"
+				id: "2E9EFC15A51DD85A"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest1.reward_3359399541959678042.title}"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "2F57CE68FB752EF4"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest1.task_+3411422193047121652.title}"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5BA86B01337A91D5"]
+			icon: "minecraft:copper_ingot"
+			id: "0C6A5C27AD28AAC3"
+			rewards: [{
+				auto: "enabled"
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"minecraft:copper_ingot\"}]}"
+				elevate_perms: true
+				icon: "minecraft:copper_ingot"
+				id: "78E99FE894D1D315"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest2.reward_8712670775402943253.title}"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "6697A33D7EF89AC1"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest2.task_+7392556797870512833.title}"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5BA86B01337A91D5"]
+			icon: "minecraft:gold_ingot"
+			id: "602579A896CC72A7"
+			rewards: [{
+				auto: "enabled"
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"minecraft:gold_ingot\"}]}"
+				elevate_perms: true
+				icon: "minecraft:gold_ingot"
+				id: "4FC82A09C2AEE1D8"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest3.reward_5748891145747751384.title}"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "288E72B28FBE1C95"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest3.task_+2922399319451376789.title}"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5BA86B01337A91D5"]
+			icon: "gtceu:tin_ingot"
+			id: "32605A7F439AB570"
+			rewards: [{
+				auto: "enabled"
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"gtceu:tin_ingot\"}]}"
+				elevate_perms: true
+				icon: "gtceu:tin_ingot"
+				id: "70708B2BF697E27A"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest4.reward_8102128750576525946.title}"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "4DA6D68FE7F68FFC"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest4.task_+5595395500614782972.title}"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5BA86B01337A91D5"]
+			icon: "gtceu:zinc_ingot"
+			id: "6A30D5C2A3EDF450"
+			rewards: [{
+				auto: "enabled"
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"gtceu:zinc_ingot\"}]}"
+				elevate_perms: true
+				icon: "gtceu:zinc_ingot"
+				id: "56A801E383F3F2F0"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest5.reward_6244242960032199408.title}"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "10A6845657D139F7"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest5.task_+1199791857116199415.title}"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5BA86B01337A91D5"]
+			icon: "minecraft:ender_pearl"
+			id: "0B45896214F13658"
+			rewards: [{
+				auto: "enabled"
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"minecraft:ender_pearl\"}]}"
+				elevate_perms: true
+				icon: "minecraft:ender_pearl"
+				id: "206247FCD42EA645"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest6.reward_2333506708148495941.title}"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "58B069BDAAEA2AF7"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest6.task_+6390724134575942391.title}"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5BA86B01337A91D5"]
+			icon: "gtceu:wrought_iron_ingot"
+			id: "3C7F3285E424B55B"
+			rewards: [{
+				auto: "enabled"
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"gtceu:wrought_iron_ingot\"}]}"
+				elevate_perms: true
+				icon: "gtceu:wrought_iron_ingot"
+				id: "666D6EFEBAF48D70"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest7.reward_7380677404667448688.title}"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "69CF2D0D3FD64B97"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest7.task_+7624362229090372503.title}"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5BA86B01337A91D5"]
+			icon: "minecraft:redstone"
+			id: "742758F8B0253B78"
+			rewards: [{
+				auto: "enabled"
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"minecraft:redstone\"}]}"
+				elevate_perms: true
+				icon: "minecraft:redstone"
+				id: "18BDBC8320A45766"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest8.reward_1782788298882963302.title}"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "7E5B4FBDD76E3820"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest8.task_+9104958748441327648.title}"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1162E347E7C00175"]
+			icon: "gtceu:steel_ingot"
+			id: "232568A83855DB3F"
+			rewards: [{
+				auto: "enabled"
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"gtceu:steel_ingot\"}]}"
+				elevate_perms: true
+				icon: "gtceu:steel_ingot"
+				id: "35E93981060C5CAF"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest9.reward_3884699379898801327.title}"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "55AA53054D84BD16"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest9.task_+6172837521505172758.title}"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6D9003172EF921C9"]
+			icon: "gtceu:andesite_alloy_ingot"
+			id: "21EAC6922F7AD1D3"
+			rewards: [{
+				auto: "enabled"
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"gtceu:andesite_alloy_ingot\"}]}"
+				elevate_perms: true
+				icon: "gtceu:andesite_alloy_ingot"
+				id: "283EB62DE35352D5"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest10.reward_2899955518276850389.title}"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "7A5A97AB1BB3689E"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest10.task_+8816525981691111582.title}"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["700219157D99E263"]
+			icon: "gtceu:bronze_ingot"
+			id: "7F5291B0CD3AFA62"
+			rewards: [{
+				auto: "enabled"
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"gtceu:bronze_ingot\"}]}"
+				elevate_perms: true
+				icon: "gtceu:bronze_ingot"
+				id: "4454AEABA5988E05"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest11.reward_4923752344863673861.title}"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "2DA9B3A0BBAD0259"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest11.task_+3290358505695674969.title}"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["700219157D99E263"]
+			icon: "gtceu:brass_ingot"
+			id: "0950C79A6AAC4B8A"
+			rewards: [{
+				auto: "enabled"
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"gtceu:brass_ingot\"}]}"
+				elevate_perms: true
+				icon: "gtceu:brass_ingot"
+				id: "57B6DD330EAC015E"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest12.reward_6320482338420293982.title}"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "49241705B9BBA45E"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest12.task_+5270362777288680542.title}"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7E591C0E7278D12F"]
+			icon: "gtceu:treated_wood_planks"
+			id: "587F5DD7CFFEBD6C"
+			rewards: [{
+				auto: "enabled"
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"gtceu:treated_wood_planks\"}]}"
+				elevate_perms: true
+				icon: "gtceu:treated_wood_planks"
+				id: "4F27C83FC51A9B5F"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest13.reward_5703747629303372639.title}"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "41077F5E87BD109D"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest13.task_+4685853981283258525.title}"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6FDDD78D3F1CD965"]
+			icon: "gtceu:coke_gem"
+			id: "07221568FA9F69B4"
+			rewards: [{
+				auto: "enabled"
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"gtceu:coke_gem\"}]}"
+				elevate_perms: true
+				icon: "gtceu:coke_gem"
+				id: "763E6AC1F358378B"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest14.reward_8520364926275434379.title}"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "5700F7FB552F9273"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest14.task_+6269283340137763443.title}"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5BA86B01337A91D5"]
+			icon: "minecraft:diamond"
+			id: "1E0B75DA1DBFB761"
+			rewards: [{
+				auto: "enabled"
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"minecraft:diamond\"}]}"
+				elevate_perms: true
+				icon: "minecraft:diamond"
+				id: "410F2BE3773F3293"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest15.reward_4688013993074176659.title}"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "7CCD6181C62D45E7"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest15.task_+8992951240932279783.title}"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 6.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5BA86B01337A91D5"]
+			icon: "minecraft:coal"
+			id: "213B14E3D0F81D33"
+			rewards: [{
+				auto: "enabled"
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"minecraft:coal\"}]}"
+				elevate_perms: true
+				icon: "minecraft:coal"
+				id: "0102924B42DD66B9"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest16.reward_72781395933357753.title}"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "0517C478A5A52099"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest16.task_+366977917108166809.title}"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["012D04F8C8D62292"]
+			icon: "botania:rune_water"
+			id: "267B3ED5B4C140A3"
+			rewards: [{
+				auto: "enabled"
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"botania:rune_water\"}]}"
+				elevate_perms: true
+				icon: "botania:rune_water"
+				id: "775EDE035BFDD52F"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest17.reward_8601556444333856047.title}"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "607BD27AEF3590CA"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest17.task_+6952381875217600714.title}"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["012D04F8C8D62292"]
+			icon: "botania:rune_fire"
+			id: "5F4FB9C28C2B9AA9"
+			rewards: [{
+				auto: "enabled"
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"botania:rune_fire\"}]}"
+				elevate_perms: true
+				icon: "botania:rune_fire"
+				id: "0CC80426C24AC393"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest18.reward_920990688312214419.title}"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "28452AEF89217804"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest18.task_+2901772743196375044.title}"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["012D04F8C8D62292"]
+			icon: "botania:rune_earth"
+			id: "2D865622C976F3C0"
+			rewards: [{
+				auto: "enabled"
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"botania:rune_earth\"}]}"
+				elevate_perms: true
+				icon: "botania:rune_earth"
+				id: "3DC636D43D453438"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest19.reward_4451305566891226168.title}"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "48402B8A57B25694"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest19.task_+5206209042417079956.title}"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 6.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["012D04F8C8D62292"]
+			icon: "botania:rune_air"
+			id: "7D622DAE1C128D65"
+			rewards: [{
+				auto: "enabled"
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"botania:rune_air\"}]}"
+				elevate_perms: true
+				icon: "botania:rune_air"
+				id: "569650102B343070"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest20.reward_6239262364142940272.title}"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "6C391EC8C667D5DC"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest20.task_+7798298077439710684.title}"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0FEAC07F1404346A"]
+			icon: "gtceu:basic_electronic_circuit"
+			id: "0E9EAF937AE1B376"
+			rewards: [{
+				auto: "enabled"
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"gtceu:basic_electronic_circuit\"}]}"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				icon: "gtceu:basic_electronic_circuit"
+				id: "16D7C02FB7CC0003"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest21.reward_1645995500006801411.title}"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "1C66C276FF74F641"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest21.task_+2046536897034253889.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.4EE5451097565A1A.quest21.title}"
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7142680A93861DB2"]
+			icon: "gtceu:good_electronic_circuit"
+			id: "34347BA3B894CF01"
+			rewards: [{
+				auto: "enabled"
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"gtceu:good_electronic_circuit\"}]}"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				icon: "gtceu:good_electronic_circuit"
+				id: "26F2191AB61359E9"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest22.reward_2806333120319805929.title}"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "76ACB90D245912C2"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest22.task_+8551413258565259970.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.4EE5451097565A1A.quest22.title}"
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3AE584B3EBC63A09"]
+			icon: "gtceu:basic_integrated_circuit"
+			id: "6D45A49BE59F6AEA"
+			rewards: [{
+				auto: "enabled"
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"gtceu:basic_integrated_circuit\"}]}"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				icon: "gtceu:basic_integrated_circuit"
+				id: "2B141941DA7D971F"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest23.reward_3104133813794346783.title}"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "53DEC3128DBBCB8F"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest23.task_+6043482234432506767.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.4EE5451097565A1A.quest23.title}"
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			description: ["{ftbquests.chapter.4EE5451097565A1A.quest24.description1}"]
+			id: "1C3C3C4744816CE8"
+			tasks: [{
+				id: "27E7AE2167CB7FBA"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest24.task_+2875458345597894586.title}"
+				type: "checkmark"
+			}]
+			x: -9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1C3C3C4744816CE8"]
+			id: "37312E850B5CC7D7"
+			tasks: [
+				{
+					id: "7FB4E481CA7713DE"
+					item: "jackseconomy:importer"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "05B55B1A7F4B7C99"
+					item: "jackseconomy:mechanical_importer"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "gtceu:rose_gold_mining_hammer"
+				tag: {
+					DisallowContainerItem: 0b
+					Enchantments: [{
+						id: "minecraft:fortune"
+						lvl: 2s
+					}]
+					GT.Behaviours: {
+						AoEColumn: 1
+						AoELayer: 0
+						AoERow: 1
+						MaxAoEColumn: 1
+						MaxAoELayer: 0
+						MaxAoERow: 1
+						TorchPlacing: 1b
+					}
+					GT.Tool: {
+						Damage: 0
+						HarvestLevel: 2
+						MaxDamage: 2303
+						ToolSpeed: 8.8f
+					}
+					HideFlags: 2
+				}
+			}
+			id: "472FEB1301D00DA4"
+			rewards: [{
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"gtceu:rose_gold_mining_hammer\",nbt:{DisallowContainerItem:0b,Enchantments:[{id:\"minecraft:fortune\",lvl:2s}],GT.Behaviours:{AoEColumn:1,AoELayer:0,AoERow:1,MaxAoEColumn:1,MaxAoELayer:0,MaxAoERow:1,TorchPlacing:1b},GT.Tool:{AttackDamage:3.5f,AttackSpeed:-3.2f,Damage:0,HarvestLevel:2,MaxDamage:2303,ToolSpeed:8.8f},HideFlags:2}}]}"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				icon: {
+					Count: 1
+					id: "gtceu:rose_gold_mining_hammer"
+					tag: {
+						DisallowContainerItem: 0b
+						Enchantments: [{
+							id: "minecraft:fortune"
+							lvl: 2s
+						}]
+						GT.Behaviours: {
+							AoEColumn: 1
+							AoELayer: 0
+							AoERow: 1
+							MaxAoEColumn: 1
+							MaxAoELayer: 0
+							MaxAoERow: 1
+							TorchPlacing: 1b
+						}
+						GT.Tool: {
+							Damage: 0
+							HarvestLevel: 2
+							MaxDamage: 2303
+							ToolSpeed: 8.8f
+						}
+						HideFlags: 2
+					}
+				}
+				id: "2C872C54F5AF6A72"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest26.reward_3208582002935556722.title}"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "440FD5A96B0DF23D"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest26.task_+4904373442852024893.title}"
+				type: "checkmark"
+			}]
+			x: -12.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6CDD36A3C742B7F2"]
+			icon: "kubejs:basic_mechanism"
+			id: "21F87196C3E7DF8A"
+			rewards: [{
+				auto: "enabled"
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"kubejs:basic_mechanism\"}]}"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				icon: "kubejs:basic_mechanism"
+				id: "3472625E788BE23C"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest27.reward_3779191195206148668.title}"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "70C579FCC8D07B66"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest27.task_+8126035229267753830.title}"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7D76859D3E40A235"]
+			icon: "create:precision_mechanism"
+			id: "45E35DCAA656C4F5"
+			rewards: [{
+				auto: "enabled"
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"create:precision_mechanism\"}]}"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				icon: "create:precision_mechanism"
+				id: "0C507109DC64680E"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest28.reward_887333413758199822.title}"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "5EBD7EB07F576D60"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest28.task_+6826751906679319904.title}"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["41E48BCAEAD9D47E"]
+			icon: "kubejs:steel_mechanism"
+			id: "187611E1082EC8E1"
+			rewards: [{
+				auto: "enabled"
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"kubejs:steel_mechanism\"}]}"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				icon: "kubejs:steel_mechanism"
+				id: "5D95DF852960F661"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest29.reward_6743541780075050593.title}"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "64B1AF9334CE5D7E"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest29.task_+7255773521451572606.title}"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5E5F4837CC1F047A"]
+			icon: "create:cogwheel"
+			id: "68FF825294F5F1F7"
+			rewards: [{
+				auto: "enabled"
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"create:cogwheel\"}]}"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				icon: "create:cogwheel"
+				id: "157802B441B40DDE"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest30.reward_1546989445221453278.title}"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "24F0C2A832DB70B3"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest30.task_+2661841407439499443.title}"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["33452CB4AAC5EE5F"]
+			icon: "create:large_cogwheel"
+			id: "1D1A98A1BB440FD5"
+			rewards: [{
+				auto: "enabled"
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"create:large_cogwheel\"}]}"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				icon: "create:large_cogwheel"
+				id: "24CC8DB5079FBACB"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest31.reward_2651650089270885067.title}"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "7D2EED24BEC795CC"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest31.task_+9020407845745038796.title}"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "kubejs:broken_temperature_keeping_device"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "78A53D83556FC26B"
+			rewards: [{
+				auto: "enabled"
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"kubejs:broken_temperature_keeping_device\",nbt:{Damage:0}}]}"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				icon: {
+					Count: 1
+					id: "kubejs:broken_temperature_keeping_device"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "60A0B8E8ED0033CF"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest32.reward_6962768334462923727.title}"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "56C5802444F84C2B"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest32.task_+6252544550938102827.title}"
+				type: "checkmark"
+			}]
+			x: -12.5d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:bread"
+			id: "2601E4DB1C67209B"
+			rewards: [{
+				auto: "enabled"
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"minecraft:bread\"}]}"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				icon: "minecraft:bread"
+				id: "5A04251B4FE561D9"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest33.reward_6486350162555134425.title}"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "58C68065EE4B3434"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest33.task_+6396941496004326452.title}"
+				type: "checkmark"
+			}]
+			x: -9.5d
+			y: 6.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["773CB6E376B56EA4"]
+			icon: "gtceu:chromium_dust"
+			id: "2C3AA089B3CF8E44"
+			rewards: [{
+				auto: "enabled"
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"gtceu:chromium_dust\"}]}"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				icon: "gtceu:chromium_dust"
+				id: "0D2B3DC12B456C90"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest34.reward_948920046355573904.title}"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "4C91B7B75CF14638"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest34.task_+5517393016671782456.title}"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 6.5d
+		}
+		{
+			description: ["可出口物品主要为食物原材料以及部分加工食物，具体为mc原版所有食物，农夫乐事原版以及暮色乐事等模组中的部分食物，剩余的没有标价的食材大家可以给制作组提出一些定价意见。"]
+			id: "7F9FAB58AA9BE300"
+			tasks: [{
+				id: "5E79AAD336CDA6A4"
+				title: "可出口物品"
+				type: "checkmark"
+			}]
+			x: -9.5d
+			y: -1.0d
+		}
+	]
+	title: "{ftbquests.chapter.4EE5451097565A1A.title}"
+}

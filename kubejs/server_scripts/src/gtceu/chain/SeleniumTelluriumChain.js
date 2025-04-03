@@ -12,7 +12,6 @@ ServerEvents.recipes(event => {
         .EUt(60)
         .duration(100)
         .inputFluids(Fluid.of('gtceu:blue_vitriol_solution', 1000))
-        .inputFluids(Fluid.of('minecraft:water', 1000))
         .outputFluids(Fluid.of('gtceu:sulfuric_acid', 1000))
         .outputFluids(Fluid.of('gtceu:oxygen', 1000))
         .itemOutputs('gtceu:copper_dust')
@@ -46,7 +45,7 @@ ServerEvents.recipes(event => {
         .itemOutputs('6x gtceu:sodium_hydroxide_dust')
         .circuit(2)
     // TeO2 + 2SO2 + H2O -> Te + H2SO4 + SO3
-    ctnh.electrolyzer('tellurium_recycle2')
+    ctnh.chemical_reactor('tellurium_recycle2')
         .EUt(GTValues.VA[GTValues.EV])
         .duration(300)
         .itemInputs('3x gtceu:tellurium_dioxide_dust')

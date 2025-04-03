@@ -114,24 +114,10 @@ ServerEvents.recipes(event => {
     event.replaceOutput({}, "#forge:dusts/sulfur", "gtceu:sulfur_dust")
     event.replaceOutput({}, "bloodmagic:sulfur", "gtceu:sulfur_dust")
     event.replaceInput({}, "biomesoplenty:cherry_wood", "minecraft:cherry_wood")
-    // event.replaceInput({}, "gtceu:certus_quartz_gem", "ae2:certus_quartz_crystal")
-    // event.replaceOutput({}, "gtceu:certus_quartz_gem", "ae2:certus_quartz_crystal")
-    //event.replaceInput({}, "#forge:dusts/certus_quartz", "gtceu:certus_quartz_dust")
-    //event.replaceOutput({}, "#forge:dusts/certus_quartz", "gtceu:certus_quartz_dust")
-    event.replaceInput({}, "minecraft:netherite_ingot", "gtceu:netherite_ingot")
-    event.replaceOutput({}, "minecraft:netherite_ingot", "gtceu:netherite_ingot")
-    event.replaceInput({}, "minecraft:netherite_block", "gtceu:netherite_block")
-    event.replaceOutput({}, "minecraft:netherite_block", "gtceu:netherite_block")
     event.replaceOutput({}, "create:powered_obsidian", "gtceu:obsidian_dust")
     event.replaceInput({}, "create:powered_obsidian", "gtceu:obsidian_dust")
     event.replaceOutput({ id: "create:splashing/red_sand" }, "minecraft:gold_nugget", "gtceu:precious_alloy_nugget")
     event.replaceOutput({ id: "create:splashing/soul_sand" }, "minecraft:gold_nugget", "gtceu:precious_alloy_nugget")
-    event.replaceOutput({ id: "tetranichematerials:bronnum_block" }, "tetranichematerials:bronnum_block", "gtceu:bronze_block")
-
-    event.replaceInput({}, "tetranichematerials:red_gold_ingot", "gtceu:rose_gold_ingot")
-    event.replaceInput({}, "tetranichematerials:bronnum_ingot", "gtceu:bronze_ingot")
-    event.replaceInput({}, "tetranichematerials:pulverized_coal", "gtceu:coal_dust")
-    event.replaceInput({}, "tetranichematerials:lapis_powder", "gtceu:lapis_dust")
 
     event.replaceOutput({}, "#forge:ethanol", "gtceu:ethanol")
     event.replaceInput({}, "#forge:ethanol", "gtceu:ethanol")
@@ -141,4 +127,12 @@ ServerEvents.recipes(event => {
     event.replaceInput({}, "gtceu:refined_radiance_ingot", "create:refined_radiance")
     event.replaceInput({}, "gtceu:shadow_steel_ingot", "create:shadow_steel")
     event.replaceInput({}, "#forge:dusts/quartz",'gtceu:nether_quartz_dust')
+    event.replaceInput({id: 'create_new_age:cutting/copper_sheet'}, "gtceu:copper_plate",'gtceu:double_copper_plate')
+    let bloodMagicRune = ['bloodmagic:blood_rune_speed_2','bloodmagic:blood_rune_sac_2','bloodmagic:blood_rune_self_sac_2',
+                                    'bloodmagic:blood_rune_displacement_2','bloodmagic:blood_rune_capacity_2','bloodmagic:blood_rune_aug_capacity_2',
+                                    'bloodmagic:blood_rune_orb_2','bloodmagic:blood_rune_acceleration_2','bloodmagic:blood_rune_charging_2']
+    bloodMagicRune.forEach(runeid => {
+        event.replaceInput({id:runeid},'minecraft:netherite_scrap','minecraft:netherite_ingot')
+        event.replaceInput({id:runeid},'bloodmagic:etherealslate','kubejs:endslate')
+    })
 })

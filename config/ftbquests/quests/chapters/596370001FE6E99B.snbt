@@ -1,0 +1,376 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "596370001FE6E99B"
+	group: ""
+	icon: {
+		Count: 1
+		id: "minecraft:player_head"
+		tag: {
+			SkullOwner: {
+				Id: [I;
+					1878141411
+					540102149
+					-1492416550
+					-2028171038
+				]
+				Name: "Snow_city"
+				Properties: {
+					textures: [{
+						Value: "ewogICJ0aW1lc3RhbXAiIDogMTczMzU5NzQyMTE0MywKICAicHJvZmlsZUlkIiA6ICI2ZmYyMjllMzIwMzE0ZTA1YTcwYjg3ZGE4NzFjOTBlMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTbm93X2NpdHkiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWU4MDE5Yjc5NTM3MmFhNmEzYmU4ZGZkMjEzMThhM2U1MTZiYTYxNmIyNDI3NDE0NjNjM2ZlNTY2MmNjMTEzNSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2NkOWQ4MmFiMTdmZDkyMDIyZGJkNGE4NmNkZTRjMzgyYTc1NDBlMTE3ZmFlN2I5YTI4NTM2NTg1MDVhODA2MjUiCiAgICB9CiAgfQp9"
+					}]
+				}
+			}
+		}
+	}
+	id: "596370001FE6E99B"
+	images: [{
+		height: 9.0d
+		image: "ftbquests:textures/snow_city.png"
+		rotation: 0.0d
+		width: 9.185567010309278d
+		x: -2.0d
+		y: 0.0d
+	}]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.596370001FE6E99B.quest1.description1}"
+				"{ftbquests.chapter.596370001FE6E99B.quest1.description2}"
+			]
+			id: "22ABF30D518BD58C"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest1.subtitle}"
+			tasks: [{
+				id: "6A77E25CAB924BFF"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest1.task_+7671849377892289535.title}"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.596370001FE6E99B.quest2.description1}"
+				"{ftbquests.chapter.596370001FE6E99B.quest2.description2}"
+				"{ftbquests.chapter.596370001FE6E99B.quest2.description3}"
+			]
+			id: "095E8F5805EFE4D0"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest2.subtitle}"
+			tasks: [{
+				id: "2389CFC195589D70"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest2.task_+2560806293478088048.title}"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.596370001FE6E99B.quest3.description1}"
+				"{ftbquests.chapter.596370001FE6E99B.quest3.description2}"
+			]
+			id: "478515D31A125334"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest3.subtitle}"
+			tasks: [{
+				id: "3F5150BE598336CB"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest3.task_+4562516675978802891.title}"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.596370001FE6E99B.quest4.description1}"
+				"{ftbquests.chapter.596370001FE6E99B.quest4.description2}"
+			]
+			id: "5069FEA1EBCBD315"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest4.subtitle}"
+			tasks: [{
+				id: "4BC5FA5A8A142EF1"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest4.task_+5460045390027173617.title}"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			description: ["{ftbquests.chapter.596370001FE6E99B.quest5.description1}"]
+			id: "3A9E38FE270C1517"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest5.subtitle}"
+			tasks: [{
+				id: "207C44B7DD790F74"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest5.task_+2340821462811217780.title}"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.596370001FE6E99B.quest6.description1}"
+				"{ftbquests.chapter.596370001FE6E99B.quest6.description2}"
+				"{ftbquests.chapter.596370001FE6E99B.quest6.description3}"
+				""
+			]
+			id: "21A041F23BC5B89D"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest6.subtitle}"
+			tasks: [{
+				id: "266D66828F20DE07"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest6.task_+2768982056835800583.title}"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.596370001FE6E99B.quest7.description1}"
+				"{ftbquests.chapter.596370001FE6E99B.quest7.description2}"
+				"{ftbquests.chapter.596370001FE6E99B.quest7.description3}"
+				"{ftbquests.chapter.596370001FE6E99B.quest7.description4}"
+				"{ftbquests.chapter.596370001FE6E99B.quest7.description5}"
+				"{ftbquests.chapter.596370001FE6E99B.quest7.description6}"
+			]
+			id: "045C3E672C8506E1"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest7.subtitle}"
+			tasks: [{
+				id: "08A20B7A74665A88"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest7.task_+622072319097330312.title}"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.596370001FE6E99B.quest8.description1}"
+				"{ftbquests.chapter.596370001FE6E99B.quest8.description2}"
+			]
+			id: "65EC29CE941B8231"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest8.subtitle}"
+			tasks: [{
+				id: "3FD99E175CCA6832"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest8.task_+4600882317513877554.title}"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			description: ["{ftbquests.chapter.596370001FE6E99B.quest9.description1}"]
+			id: "1E46BA977152A462"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest9.subtitle}"
+			tasks: [{
+				id: "5908E87A0588E354"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest9.task_+6415633279965782868.title}"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.596370001FE6E99B.quest10.description1}"
+				"{ftbquests.chapter.596370001FE6E99B.quest10.description2}"
+				"{ftbquests.chapter.596370001FE6E99B.quest10.description3}"
+				"{ftbquests.chapter.596370001FE6E99B.quest10.description4}"
+			]
+			id: "5A7C277C370AD362"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest10.subtitle}"
+			tasks: [{
+				id: "035BB87E7E582702"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest10.task_+241989858419549954.title}"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.596370001FE6E99B.quest11.description1}"
+				"{ftbquests.chapter.596370001FE6E99B.quest11.description2}"
+				"{ftbquests.chapter.596370001FE6E99B.quest11.description3}"
+			]
+			id: "0380BD76D7A96F58"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest11.subtitle}"
+			tasks: [{
+				id: "254299460AE15C49"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest11.task_+2684876853975538761.title}"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.596370001FE6E99B.quest12.description1}"
+				"{ftbquests.chapter.596370001FE6E99B.quest12.description2}"
+			]
+			id: "782151CC2B61160B"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest12.subtitle}"
+			tasks: [{
+				id: "677C0A38D1E70213"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest12.task_+7456846322174722579.title}"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.596370001FE6E99B.quest13.description1}"
+				"{ftbquests.chapter.596370001FE6E99B.quest13.description2}"
+			]
+			id: "115F1C7FD1E79C79"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest13.subtitle}"
+			tasks: [{
+				id: "260B52B84D28856C"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest13.task_+2741375749707040108.title}"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.596370001FE6E99B.quest14.description1}"
+				"{ftbquests.chapter.596370001FE6E99B.quest14.description2}"
+				"{ftbquests.chapter.596370001FE6E99B.quest14.description3}"
+			]
+			id: "346272253393279F"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest14.subtitle}"
+			tasks: [{
+				id: "053633B1AAC908ED"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest14.task_+375544457099544813.title}"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.596370001FE6E99B.quest15.description1}"
+				"{ftbquests.chapter.596370001FE6E99B.quest15.description2}"
+				"{ftbquests.chapter.596370001FE6E99B.quest15.description3}"
+				"{ftbquests.chapter.596370001FE6E99B.quest15.description4}"
+				"{ftbquests.chapter.596370001FE6E99B.quest15.description5}"
+				"{ftbquests.chapter.596370001FE6E99B.quest15.description6}"
+				"{ftbquests.chapter.596370001FE6E99B.quest15.description7}"
+			]
+			id: "6B760684956D1BE1"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest15.subtitle}"
+			tasks: [{
+				id: "06169705E3B3B6EC"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest15.task_+438704065266038508.title}"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.596370001FE6E99B.quest16.description1}"
+				"{ftbquests.chapter.596370001FE6E99B.quest16.description2}"
+				"{ftbquests.chapter.596370001FE6E99B.quest16.description3}"
+				"{ftbquests.chapter.596370001FE6E99B.quest16.description4}"
+				"{ftbquests.chapter.596370001FE6E99B.quest16.description5}"
+				"{ftbquests.chapter.596370001FE6E99B.quest16.description6}"
+				"{ftbquests.chapter.596370001FE6E99B.quest16.description7}"
+			]
+			id: "694E4397215D8F0C"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest16.subtitle}"
+			tasks: [{
+				id: "23D5A764F9AC759B"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest16.task_+2582154013494244763.title}"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			description: ["{ftbquests.chapter.596370001FE6E99B.quest17.description1}"]
+			id: "6A06571EE74A6F63"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest17.subtitle}"
+			tasks: [{
+				id: "73AEFABF6318C55A"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest17.task_+8335875660217632090.title}"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.596370001FE6E99B.quest18.description1}"
+				"{ftbquests.chapter.596370001FE6E99B.quest18.description2}"
+				"{ftbquests.chapter.596370001FE6E99B.quest18.description3}"
+			]
+			id: "5378DE529B4826D5"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest18.subtitle}"
+			tasks: [{
+				id: "37492B461318B5BE"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest18.task_+3983762925354005950.title}"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.596370001FE6E99B.quest19.description1}"
+				"{ftbquests.chapter.596370001FE6E99B.quest19.description2}"
+				"{ftbquests.chapter.596370001FE6E99B.quest19.description3}"
+				"{ftbquests.chapter.596370001FE6E99B.quest19.description4}"
+			]
+			id: "157616D257E25806"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest19.subtitle}"
+			tasks: [{
+				id: "6BBC98D7EA0A55A3"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest19.task_+7763247910791828899.title}"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.596370001FE6E99B.quest20.description1}"
+				"{ftbquests.chapter.596370001FE6E99B.quest20.description2}"
+			]
+			id: "7FC6F33F349AFB8B"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest20.subtitle}"
+			tasks: [{
+				id: "5FFB5BE2547D43DA"
+				item: {
+					Count: 1
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								1878141411
+								540102149
+								-1492416550
+								-2028171038
+							]
+							Name: "Snow_city"
+							Properties: {
+								textures: [{
+									Value: "ewogICJ0aW1lc3RhbXAiIDogMTczMzU5NzQyMTE0MywKICAicHJvZmlsZUlkIiA6ICI2ZmYyMjllMzIwMzE0ZTA1YTcwYjg3ZGE4NzFjOTBlMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTbm93X2NpdHkiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWU4MDE5Yjc5NTM3MmFhNmEzYmU4ZGZkMjEzMThhM2U1MTZiYTYxNmIyNDI3NDE0NjNjM2ZlNTY2MmNjMTEzNSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2NkOWQ4MmFiMTdmZDkyMDIyZGJkNGE4NmNkZTRjMzgyYTc1NDBlMTE3ZmFlN2I5YTI4NTM2NTg1MDVhODA2MjUiCiAgICB9CiAgfQp9"
+								}]
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.596370001FE6E99B.quest20.title}"
+			x: -0.5d
+			y: 3.5d
+		}
+	]
+	subtitle: ["{ftbquests.chapter.596370001FE6E99B.subtitle0}"]
+	title: "{ftbquests.chapter.596370001FE6E99B.title}"
+}

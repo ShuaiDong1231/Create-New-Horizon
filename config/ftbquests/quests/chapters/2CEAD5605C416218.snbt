@@ -1,0 +1,1411 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2CEAD5605C416218"
+	group: "4CD84F8DB1FF8B7E"
+	icon: "gtceu:oil_medium_bucket"
+	id: "2CEAD5605C416218"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "gtceu:oil_medium_bucket"
+			id: "475A6C3B67F4D31C"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest1.subtitle}"
+			tasks: [{
+				id: "731CCACD685E2B96"
+				title: "{ftbquests.chapter.2CEAD5605C416218.quest1.task_+8294727597277719446.title}"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.2CEAD5605C416218.quest2.description1}"
+				"{ftbquests.chapter.2CEAD5605C416218.quest2.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:player_head"
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							1878141411
+							540102149
+							-1492416550
+							-2028171038
+						]
+						Name: "Snow_city"
+						Properties: {
+							textures: [{
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTczMDYxMzY3Nzc0MywKICAicHJvZmlsZUlkIiA6ICI2ZmYyMjllMzIwMzE0ZTA1YTcwYjg3ZGE4NzFjOTBlMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTbm93X2NpdHkiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWU4MDE5Yjc5NTM3MmFhNmEzYmU4ZGZkMjEzMThhM2U1MTZiYTYxNmIyNDI3NDE0NjNjM2ZlNTY2MmNjMTEzNSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2NkOWQ4MmFiMTdmZDkyMDIyZGJkNGE4NmNkZTRjMzgyYTc1NDBlMTE3ZmFlN2I5YTI4NTM2NTg1MDVhODA2MjUiCiAgICB9CiAgfQp9"
+							}]
+						}
+					}
+				}
+			}
+			id: "4ADEDBFAAE364473"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest2.subtitle}"
+			tasks: [{
+				id: "786AC43ACCC0C0BE"
+				title: "{ftbquests.chapter.2CEAD5605C416218.quest2.task_+8676963388905013438.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.2CEAD5605C416218.quest2.title}"
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.2CEAD5605C416218.quest3.description1}"
+				"{ftbquests.chapter.2CEAD5605C416218.quest3.description2}"
+				"{ftbquests.chapter.2CEAD5605C416218.quest3.description3}"
+				"{ftbquests.chapter.2CEAD5605C416218.quest3.description4}"
+			]
+			icon: "botania:cosmetic_thinking_hand"
+			id: "39A2B69213538581"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest3.subtitle}"
+			tasks: [{
+				id: "58329466B8F858C7"
+				title: "{ftbquests.chapter.2CEAD5605C416218.quest3.task_+6355305193084049607.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.2CEAD5605C416218.quest3.title}"
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			icon: "gtceu:lv_machine_hull"
+			id: "228C7E019750CFF1"
+			size: 2.0d
+			tasks: [{
+				id: "29414775BE90922F"
+				title: "{ftbquests.chapter.2CEAD5605C416218.quest4.task_+2972735800075129391.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.2CEAD5605C416218.quest4.title}"
+			x: -9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["228C7E019750CFF1"]
+			description: ["{ftbquests.chapter.2CEAD5605C416218.quest5.description1}"]
+			icon: "gtceu:oil_medium_bucket"
+			id: "618C3E4E348D7A4B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "443543776D1BFBDB"
+				table_id: 601634794626000726L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest5.subtitle}"
+			tasks: [{
+				id: "15F4BBF99560B0AF"
+				item: "gtceu:oil_medium_bucket"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.2CEAD5605C416218.quest5.title}"
+			x: -9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["618C3E4E348D7A4B"]
+			description: ["{ftbquests.chapter.2CEAD5605C416218.quest6.description1}"]
+			icon: "gtceu:lv_distillery"
+			id: "4510585A6279877F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "26D1ECA37053B2B0"
+				table_id: 601634794626000726L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest6.subtitle}"
+			tasks: [{
+				id: "6F2AAB2D0B181CE3"
+				item: "gtceu:lv_distillery"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.2CEAD5605C416218.quest6.title}"
+			x: -9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4510585A6279877F"]
+			id: "5C009C0F6F33E9CF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "37B0C7F6A7752EAE"
+				table_id: 601634794626000726L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest7.subtitle}"
+			tasks: [{
+				id: "5896B3E4B735A9CD"
+				item: "gtceu:sulfuric_light_fuel_bucket"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4510585A6279877F"]
+			id: "3F1DF409FEA8345E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0CC980D0760F1C3C"
+				table_id: 601634794626000726L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest8.subtitle}"
+			tasks: [{
+				id: "3D679307B9AC424B"
+				item: "gtceu:sulfuric_heavy_fuel_bucket"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4510585A6279877F"]
+			id: "1236337116794E31"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "20BD7A820E4C500F"
+				table_id: 601634794626000726L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest9.subtitle}"
+			tasks: [{
+				id: "4F24EC3D220FEFFD"
+				item: "gtceu:sulfuric_naphtha_bucket"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4510585A6279877F"]
+			id: "123379D3A36CD01E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "696BEDA2F6AA5B72"
+				table_id: 601634794626000726L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest10.subtitle}"
+			tasks: [{
+				id: "1BF8BD75F4D0F91C"
+				item: "gtceu:sulfuric_gas_bucket"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4510585A6279877F"]
+			description: ["{ftbquests.chapter.2CEAD5605C416218.quest11.description1}"]
+			id: "02DB7FB27F963B96"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "118574B947CA54D8"
+				table_id: 601634794626000726L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest11.subtitle}"
+			tasks: [{
+				id: "089524861B98D023"
+				item: "gtceu:lv_combustion"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4510585A6279877F"]
+			description: ["{ftbquests.chapter.2CEAD5605C416218.quest12.description1}"]
+			id: "4616AC2631FDDE37"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7E8099A4D1FEEE91"
+				table_id: 601634794626000726L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest12.subtitle}"
+			tasks: [{
+				id: "4A5B582B12D88B1C"
+				item: "gtceu:lv_gas_turbine"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"02DB7FB27F963B96"
+				"4616AC2631FDDE37"
+			]
+			dependency_requirement: "one_completed"
+			description: ["{ftbquests.chapter.2CEAD5605C416218.quest13.description1}"]
+			id: "332BF376BDAB27DA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1985A41E0C5E2A11"
+				table_id: 601634794626000726L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest13.subtitle}"
+			tasks: [{
+				id: "6CACA63A911242FC"
+				item: "gtceu:lv_chemical_reactor"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.2CEAD5605C416218.quest13.title}"
+			x: -9.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["332BF376BDAB27DA"]
+			id: "4AC6548D09A12203"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1FCAB8655BDB1670"
+				table_id: 601634794626000726L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest14.subtitle}"
+			tasks: [{
+				id: "56D1A0EC50CBE6CC"
+				item: "gtceu:hydrogen_sulfide_bucket"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4AC6548D09A12203"]
+			description: ["{ftbquests.chapter.2CEAD5605C416218.quest15.description1}"]
+			id: "79F44C472D79151F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4AE1D3754F618047"
+				table_id: 601634794626000726L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest15.subtitle}"
+			tasks: [{
+				id: "0A65F39BDDB64241"
+				item: "gtceu:lv_electrolyzer"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["79F44C472D79151F"]
+			description: [
+				"{ftbquests.chapter.2CEAD5605C416218.quest16.description1}"
+				"{ftbquests.chapter.2CEAD5605C416218.quest16.description2}"
+			]
+			id: "23FA40EA2E54603E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "101E247C46A1C70A"
+				table_id: 601634794626000726L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest16.subtitle}"
+			tasks: [{
+				id: "10C32448D622EF93"
+				item: "gtceu:hydrogen_bucket"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["332BF376BDAB27DA"]
+			id: "0AAEE2288B0637AC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "571A03ECEC7BB142"
+				table_id: 601634794626000726L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest17.subtitle}"
+			tasks: [{
+				id: "10C522331E766862"
+				item: "gtceu:light_fuel_bucket"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["332BF376BDAB27DA"]
+			id: "65BCEDFA60486750"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5A326122264EC46C"
+				table_id: 601634794626000726L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest18.subtitle}"
+			tasks: [{
+				id: "44B01AC3FA242AF5"
+				item: "gtceu:heavy_fuel_bucket"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["332BF376BDAB27DA"]
+			id: "5D22A8B33C8B7C20"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "067AAFBBE8ACCF2A"
+				table_id: 601634794626000726L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest19.subtitle}"
+			tasks: [{
+				id: "018F258E7B148C75"
+				item: "gtceu:naphtha_bucket"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["332BF376BDAB27DA"]
+			id: "1421D16E540993B8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6FE36C4B34DE40C1"
+				table_id: 601634794626000726L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest20.subtitle}"
+			tasks: [{
+				id: "2C2E70C3DA3F42E5"
+				item: "gtceu:refinery_gas_bucket"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 6.5d
+		}
+		{
+			icon: "gtceu:mv_machine_hull"
+			id: "04EFD393B5990E72"
+			size: 2.0d
+			tasks: [{
+				id: "71DB850D53782BB8"
+				title: "{ftbquests.chapter.2CEAD5605C416218.quest21.task_+8204297438466943928.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.2CEAD5605C416218.quest21.title}"
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["04EFD393B5990E72"]
+			description: ["{ftbquests.chapter.2CEAD5605C416218.quest22.description1}"]
+			id: "1CC3B42FE86A4743"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "40A1FD22127563FD"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest22.subtitle}"
+			tasks: [
+				{
+					id: "0E8DF40A39FEE802"
+					item: "gtceu:mv_mixer"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "670FB78805FFA78D"
+					item: "ctpp:mv_kinetic_mixer"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.2CEAD5605C416218.quest22.title}"
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1CC3B42FE86A4743"]
+			id: "0E72AEAF23C24D5E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1B1AF8869FD39E99"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest23.subtitle}"
+			tasks: [{
+				id: "3DA85AFE249DA5D3"
+				item: "gtceu:diesel_bucket"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["04EFD393B5990E72"]
+			id: "7F15BB71576900CD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B1F21DA6CB9E00D"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest24.subtitle}"
+			tasks: [{
+				id: "01F65F3A729FFEB3"
+				item: "gtceu:mv_combustion"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["04EFD393B5990E72"]
+			description: ["{ftbquests.chapter.2CEAD5605C416218.quest25.description1}"]
+			id: "62F220389305D060"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F0040707D6392A8"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest25.subtitle}"
+			tasks: [
+				{
+					id: "3C218F4B8794DC63"
+					item: "gtceu:mv_fluid_drilling_rig"
+					type: "item"
+				}
+				{
+					count: 15L
+					id: "551B0F7DF281A170"
+					item: "gtceu:steel_frame"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "6F680776B704445A"
+					item: "gtceu:solid_machine_casing"
+					type: "item"
+				}
+				{
+					id: "035E81213237E09C"
+					item: "gtceu:mv_energy_input_hatch"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["62F220389305D060"]
+			description: [
+				"{ftbquests.chapter.2CEAD5605C416218.quest26.description1}"
+				"{ftbquests.chapter.2CEAD5605C416218.quest26.description2}"
+				"{ftbquests.chapter.2CEAD5605C416218.quest26.description3}"
+			]
+			icon: "botania:cosmetic_thinking_hand"
+			id: "644C47F8314F0DBC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7BE46F3EE3B60C44"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest26.subtitle}"
+			tasks: [{
+				id: "36D28FA2F621CC2B"
+				title: "{ftbquests.chapter.2CEAD5605C416218.quest26.task_+3950377753234230315.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.2CEAD5605C416218.quest26.title}"
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["644C47F8314F0DBC"]
+			description: ["{ftbquests.chapter.2CEAD5605C416218.quest27.description1}"]
+			icon: "botania:cosmetic_thinking_hand"
+			id: "4594C3CB08FB0A4E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C9A16301D947484"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest27.subtitle}"
+			tasks: [{
+				id: "36FD1A5427DD04EF"
+				title: "{ftbquests.chapter.2CEAD5605C416218.quest27.task_+3962352195904275695.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.2CEAD5605C416218.quest27.title}"
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4594C3CB08FB0A4E"]
+			id: "7D6EC424FC1E9163"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E8BEFEEDD23E0AA"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest28.subtitle}"
+			tasks: [{
+				id: "5EA09EC7F57F8E9B"
+				item: "gtceu:oil_heavy_bucket"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4594C3CB08FB0A4E"]
+			id: "66B3F0D108699D28"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E00803CDF12CB37"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest29.subtitle}"
+			tasks: [{
+				id: "492E7C59270856E7"
+				item: "gtceu:oil_bucket"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4594C3CB08FB0A4E"]
+			id: "4EED06125B908AF0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2FF5FD1188B4862D"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest30.subtitle}"
+			tasks: [{
+				id: "2A2EBA49242E2CCE"
+				item: "gtceu:oil_medium_bucket"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4594C3CB08FB0A4E"]
+			id: "56008EF6CEB69CBB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0E6B5FBF9219A35B"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest31.subtitle}"
+			tasks: [{
+				id: "009C156DFF3085B3"
+				item: "gtceu:oil_light_bucket"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4594C3CB08FB0A4E"]
+			id: "4BDB6985BCA2E59B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "03DE9EA710FECD39"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest32.subtitle}"
+			tasks: [{
+				id: "17514DF9D5931A82"
+				item: "gtceu:natural_gas_bucket"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7F15BB71576900CD"]
+			id: "3166E9A46BC303F7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "136B18C1EDA77026"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest33.subtitle}"
+			tasks: [{
+				id: "6A558713FDCA6611"
+				item: "gtceu:mv_gas_turbine"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			icon: "gtceu:hv_machine_hull"
+			id: "1EDA02396B328A49"
+			size: 2.0d
+			tasks: [{
+				id: "215D02C397CABDA2"
+				title: "{ftbquests.chapter.2CEAD5605C416218.quest34.task_+2404080815174237602.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.2CEAD5605C416218.quest34.title}"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4594C3CB08FB0A4E"]
+			description: [
+				"{ftbquests.chapter.2CEAD5605C416218.quest35.description1}"
+				"{ftbquests.chapter.2CEAD5605C416218.quest35.description2}"
+			]
+			icon: "botania:cosmetic_thinking_hand"
+			id: "2B3A126F8C590A55"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6673AC955BFFD3A7"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest35.subtitle}"
+			tasks: [{
+				id: "3B8FB6DD99CA612A"
+				title: "{ftbquests.chapter.2CEAD5605C416218.quest35.task_+4291850032791576874.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.2CEAD5605C416218.quest35.title}"
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4594C3CB08FB0A4E"]
+			description: [
+				"{ftbquests.chapter.2CEAD5605C416218.quest36.description1}"
+				"{ftbquests.chapter.2CEAD5605C416218.quest36.description2}"
+			]
+			icon: "gtmthings:wireless_fluid_transfer_cover"
+			id: "47D645D2CF6F4696"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "04965CDA3AF1BDCE"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest36.subtitle}"
+			tasks: [{
+				id: "65408B9B64EB958A"
+				item: "gtmthings:wireless_fluid_transfer_cover"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.2CEAD5605C416218.quest36.title}"
+			x: -6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1EDA02396B328A49"]
+			description: [
+				"{ftbquests.chapter.2CEAD5605C416218.quest37.description1}"
+				"{ftbquests.chapter.2CEAD5605C416218.quest37.description2}"
+			]
+			id: "117CC578D19D6CB0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B807AFA0529ED72"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest37.subtitle}"
+			tasks: [{
+				id: "35ECDC9B95FE0CC8"
+				item: "gtceu:distillation_tower"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.2CEAD5605C416218.quest37.title}"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1EDA02396B328A49"]
+			description: ["{ftbquests.chapter.2CEAD5605C416218.quest38.description1}"]
+			id: "60F804F953AB347A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "70F35DCD5F786620"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest38.subtitle}"
+			tasks: [{
+				id: "0CB6F0E3570A9536"
+				item: "gtceu:large_chemical_reactor"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.2CEAD5605C416218.quest38.title}"
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1EDA02396B328A49"]
+			id: "3303E8052878B7CA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "27AF928932FC54C6"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest39.subtitle}"
+			tasks: [{
+				id: "00654C7916B861B7"
+				item: "gtceu:prospector.hv"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.2CEAD5605C416218.quest39.title}"
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1EDA02396B328A49"]
+			id: "04F5AA140E3E62DB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C5C1E86D7F6EFC4"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest40.subtitle}"
+			tasks: [{
+				id: "4000C555F2D19DD2"
+				item: "gtceu:nitric_acid_bucket"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["04F5AA140E3E62DB"]
+			id: "3086208ED2590430"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "53B3A77FDE8901F1"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest41.subtitle}"
+			tasks: [{
+				id: "391AD2AD6BBD8B53"
+				item: "gtceu:tetranitromethane_bucket"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3086208ED2590430"]
+			id: "5425DE0071BA18F9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "016CA76BF1EC1F05"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest42.subtitle}"
+			tasks: [
+				{
+					id: "7986355C842E2C15"
+					item: "gtceu:hv_mixer"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "431A51F9A5F7DE49"
+					item: "ctpp:hv_kinetic_mixer"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.2CEAD5605C416218.quest42.title}"
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5425DE0071BA18F9"]
+			description: ["{ftbquests.chapter.2CEAD5605C416218.quest43.description1}"]
+			id: "3D0B085FB6082A3C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5638CE29A340566F"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest43.subtitle}"
+			tasks: [{
+				id: "60DA06A2C0D6F006"
+				item: "gtceu:cetane_boosted_diesel_bucket"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["117CC578D19D6CB0"]
+			description: ["{ftbquests.chapter.2CEAD5605C416218.quest44.description1}"]
+			id: "5B5DFEB9DE345B10"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "272EC06851ABCFA3"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest44.subtitle}"
+			tasks: [{
+				id: "3F5C1C6A386784CF"
+				item: "gtceu:cracker"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5B5DFEB9DE345B10"]
+			description: ["{ftbquests.chapter.2CEAD5605C416218.quest45.description1}"]
+			icon: "botania:cosmetic_thinking_hand"
+			id: "48A4A24B6CF5971A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "57CE2EB4C7EFED13"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest45.subtitle}"
+			tasks: [{
+				id: "1E724717F806DDBB"
+				title: "{ftbquests.chapter.2CEAD5605C416218.quest45.task_+2193894136753872315.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.2CEAD5605C416218.quest45.title}"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1EDA02396B328A49"]
+			id: "13424B848195B90D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "368483C64EB27488"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest46.subtitle}"
+			tasks: [{
+				id: "5A32A66BA3C75CCB"
+				item: "gtceu:hv_combustion"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["13424B848195B90D"]
+			id: "15594488383C6578"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "767C3997DADF4100"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest47.subtitle}"
+			tasks: [{
+				id: "74B0DF686C7C3484"
+				item: "gtceu:hv_gas_turbine"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			icon: "gtceu:ev_machine_hull"
+			id: "3D80BAEC0FF08BDD"
+			size: 2.0d
+			tasks: [{
+				id: "5AD80B6DF8A5239A"
+				title: "{ftbquests.chapter.2CEAD5605C416218.quest48.task_+6545994625333928858.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.2CEAD5605C416218.quest48.title}"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3D80BAEC0FF08BDD"]
+			id: "7438639FFA61F7C0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "59F464E12CA0EF7D"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest49.subtitle}"
+			tasks: [{
+				id: "6355DC86741BE21D"
+				item: "gtceu:hv_fluid_drilling_rig"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3D80BAEC0FF08BDD"]
+			id: "5F4AA868BBD57C56"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1D6887E11DD6204E"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest50.subtitle}"
+			tasks: [
+				{
+					id: "5579937E6ABDE147"
+					item: "gtceu:ev_input_hatch_4x"
+					type: "item"
+				}
+				{
+					id: "4426850699B74CEC"
+					item: "gtceu:ev_output_hatch_4x"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.2CEAD5605C416218.quest50.title}"
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3D80BAEC0FF08BDD"]
+			description: ["{ftbquests.chapter.2CEAD5605C416218.quest51.description1}"]
+			id: "211F0DB44621458D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "75D321517609B9AD"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest51.subtitle}"
+			tasks: [{
+				id: "51C4207B1CE58024"
+				title: "{ftbquests.chapter.2CEAD5605C416218.quest51.task_+5891869925645320228.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.2CEAD5605C416218.quest51.title}"
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["211F0DB44621458D"]
+			id: "4F4324CDDD5D7E0B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D5BF463AB0A4D33"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest52.subtitle}"
+			tasks: [{
+				id: "2E0555D66D7377B5"
+				item: "gtceu:methanol_bucket"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["211F0DB44621458D"]
+			id: "0F9593BC9A52CB10"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C8596057A9E8E5F"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest53.subtitle}"
+			tasks: [{
+				id: "4E9C7E50E782699F"
+				item: "gtceu:acetone_bucket"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["211F0DB44621458D"]
+			id: "37348865059DFEF9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42AB9498E5931940"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest54.subtitle}"
+			tasks: [{
+				id: "597E7B965787262C"
+				item: "gtceu:naphtha_bucket"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["211F0DB44621458D"]
+			id: "50C05C85D150D60E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "111C8559B41AC805"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest55.subtitle}"
+			tasks: [{
+				id: "5B9CB12DD9D76C09"
+				item: "gtceu:refinery_gas_bucket"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"4F4324CDDD5D7E0B"
+				"0F9593BC9A52CB10"
+				"37348865059DFEF9"
+				"50C05C85D150D60E"
+			]
+			id: "25A50FC881AF20CB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "518969DC25F85D4D"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
+			tasks: [{
+				id: "50E5B430F8BA9985"
+				item: "gtceu:raw_gasoline_bucket"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["211F0DB44621458D"]
+			hide_dependency_lines: true
+			id: "6E8824B2FA2132FF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4CFFDEC2E9765AA0"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest57.subtitle}"
+			tasks: [{
+				id: "635BE8148B4175E3"
+				item: "gtceu:toluene_bucket"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"6E8824B2FA2132FF"
+				"25A50FC881AF20CB"
+			]
+			id: "50CD01D7A08E9546"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "394DB3564AF8F93F"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest58.subtitle}"
+			tasks: [{
+				id: "0A23CC5D2F013564"
+				item: "gtceu:gasoline_bucket"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["211F0DB44621458D"]
+			hide_dependency_lines: true
+			id: "22BA32A56B16DF34"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7DCFFD5BB7296D7E"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest59.subtitle}"
+			tasks: [{
+				id: "10185F70E40F97D5"
+				item: "gtceu:octane_bucket"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["211F0DB44621458D"]
+			hide_dependency_lines: true
+			id: "11954B230147F3B8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "587F3E0D932E4199"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest60.subtitle}"
+			tasks: [{
+				id: "71EBD702FE11E876"
+				item: "gtceu:nitrous_oxide_bucket"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["211F0DB44621458D"]
+			hide_dependency_lines: true
+			id: "35C879A01DB933A3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "01CEEB12FEE77CF0"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest61.subtitle}"
+			tasks: [{
+				id: "6ABC493A9F66D177"
+				item: "gtceu:ethyl_tertbutyl_ether_bucket"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"50CD01D7A08E9546"
+				"35C879A01DB933A3"
+				"11954B230147F3B8"
+				"6E8824B2FA2132FF"
+				"22BA32A56B16DF34"
+			]
+			id: "481C3D09737918E8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "62B66339E38A73FB"
+					table_id: 971429564947815603L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "72E1B7AF9BA2540E"
+					table_id: 971429564947815603L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "665CC29EC9AD4953"
+					table_id: 971429564947815603L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6E4B5CFCC357CE79"
+					table_id: 971429564947815603L
+					type: "choice"
+				}
+			]
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest62.subtitle}"
+			tasks: [{
+				id: "5B43A3C938AA3D26"
+				item: "gtceu:high_octane_gasoline_bucket"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3D80BAEC0FF08BDD"]
+			description: ["{ftbquests.chapter.2CEAD5605C416218.quest63.description1}"]
+			hide_dependency_lines: true
+			id: "321CEC3FB96A2E1E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2FA7B190A350E6EB"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest63.subtitle}"
+			tasks: [{
+				id: "7F88D1EBAE8F1BC5"
+				item: "gtceu:large_combustion_engine"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["481C3D09737918E8"]
+			hide_until_deps_visible: true
+			id: "1756E4E4880B8FD4"
+			rewards: [
+				{
+					count: 64
+					id: "6C0892544ABC1E37"
+					item: "gtceu:titanium_block"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "6761F64F931FCAFD"
+					item: "gtceu:stainless_steel_block"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1F7279F7B843B88A"
+					item: "gtceu:tungsten_steel_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "076305E93D75935E"
+					item: "gtceu:polytetrafluoroethylene_block"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "372D349DE6AF0E8D"
+					item: "gtceu:nano_processor_assembly"
+					type: "item"
+				}
+				{
+					id: "2A9CF9C79B2B8831"
+					item: {
+						Count: 1
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									1878141411
+									540102149
+									-1492416550
+									-2028171038
+								]
+								Name: "Snow_city"
+								Properties: {
+									textures: [{
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTczMDYxMzY3Nzc0MywKICAicHJvZmlsZUlkIiA6ICI2ZmYyMjllMzIwMzE0ZTA1YTcwYjg3ZGE4NzFjOTBlMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTbm93X2NpdHkiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWU4MDE5Yjc5NTM3MmFhNmEzYmU4ZGZkMjEzMThhM2U1MTZiYTYxNmIyNDI3NDE0NjNjM2ZlNTY2MmNjMTEzNSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2NkOWQ4MmFiMTdmZDkyMDIyZGJkNGE4NmNkZTRjMzgyYTc1NDBlMTE3ZmFlN2I5YTI4NTM2NTg1MDVhODA2MjUiCiAgICB9CiAgfQp9"
+									}]
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest64.subtitle}"
+			tasks: [{
+				id: "2C8FEE06D731310A"
+				title: "{ftbquests.chapter.2CEAD5605C416218.quest64.task_+3211046772485992714.title}"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 6.5d
+		}
+		{
+			icon: "gtceu:iv_machine_hull"
+			id: "1318AF9D80910268"
+			size: 2.0d
+			tasks: [{
+				id: "5A8E8F7FD742E5F1"
+				title: "{ftbquests.chapter.2CEAD5605C416218.quest65.task_+6525310689341531633.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.2CEAD5605C416218.quest65.title}"
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1318AF9D80910268"]
+			description: ["{ftbquests.chapter.2CEAD5605C416218.quest66.description1}"]
+			id: "33BBD29D7E3DDB68"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "398CD090CE44659B"
+				table_id: 7618519509353548779L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest66.subtitle}"
+			tasks: [{
+				id: "3B11A471541EE181"
+				item: "gtceu:extreme_combustion_engine"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["33BBD29D7E3DDB68"]
+			description: [
+				"{ftbquests.chapter.2CEAD5605C416218.quest67.description1}"
+				"{ftbquests.chapter.2CEAD5605C416218.quest67.description2}"
+				"{ftbquests.chapter.2CEAD5605C416218.quest67.description3}"
+			]
+			hide_until_deps_visible: true
+			id: "4EA7875B6E1341B4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0061AEF527256FC1"
+				table_id: 7618519509353548779L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest67.subtitle}"
+			tasks: [{
+				id: "4E6D066D90F49F58"
+				title: "{ftbquests.chapter.2CEAD5605C416218.quest67.task_+5651180175072993112.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.2CEAD5605C416218.quest67.title}"
+			x: 9.0d
+			y: 2.0d
+		}
+	]
+	subtitle: ["{ftbquests.chapter.2CEAD5605C416218.subtitle0}"]
+	title: "{ftbquests.chapter.2CEAD5605C416218.title}"
+}

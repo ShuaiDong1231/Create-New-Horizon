@@ -11,6 +11,17 @@
         "value": 512
       }
     },
+    "legendarysurvivaloverhaul:thermal_resistance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10000,
+        "value": 10000
+      }
+    },
     "attributeslib:ghost_health": {
       "enabled": false,
       "min": {
@@ -88,17 +99,6 @@
         "value": 8
       }
     },
-    "cold_sweat:base_temperature": {
-      "enabled": false,
-      "min": {
-        "default": NaN,
-        "value": NaN
-      },
-      "max": {
-        "default": Infinity,
-        "value": Infinity
-      }
-    },
     "tetra:ability_damage": {
       "enabled": false,
       "min": {
@@ -119,17 +119,6 @@
       "max": {
         "default": 1000,
         "value": 1000
-      }
-    },
-    "cold_sweat:heat_resistance": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1,
-        "value": 1
       }
     },
     "attributeslib:cold_damage": {
@@ -187,17 +176,6 @@
         "value": 10000
       }
     },
-    "cold_sweat:cold_dampening": {
-      "enabled": false,
-      "min": {
-        "default": -Infinity,
-        "value": -Infinity
-      },
-      "max": {
-        "default": 1,
-        "value": 1
-      }
-    },
     "tetra:draw_strength": {
       "enabled": false,
       "min": {
@@ -207,17 +185,6 @@
       "max": {
         "default": 2048,
         "value": 2048
-      }
-    },
-    "cold_sweat:heat_dampening": {
-      "enabled": false,
-      "min": {
-        "default": -Infinity,
-        "value": -Infinity
-      },
-      "max": {
-        "default": 1,
-        "value": 1
       }
     },
     "attributeslib:dodge_chance": {
@@ -275,17 +242,6 @@
         "value": 10
       }
     },
-    "cold_sweat:freezing_point": {
-      "enabled": false,
-      "min": {
-        "default": -Infinity,
-        "value": -Infinity
-      },
-      "max": {
-        "default": Infinity,
-        "value": Infinity
-      }
-    },
     "forge:swim_speed": {
       "enabled": false,
       "min": {
@@ -317,6 +273,17 @@
       "max": {
         "default": 100,
         "value": 1000000
+      }
+    },
+    "legendarysurvivaloverhaul:heating_temperature": {
+      "enabled": false,
+      "min": {
+        "default": -10000,
+        "value": -10000
+      },
+      "max": {
+        "default": 10000,
+        "value": 10000
       }
     },
     "tetra:draw_speed": {
@@ -440,6 +407,28 @@
         "value": 4
       }
     },
+    "legendarysurvivaloverhaul:broken_heart_resilience": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 10000,
+        "value": 10000
+      }
+    },
+    "legendarysurvivaloverhaul:cold_resistance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10000,
+        "value": 10000
+      }
+    },
     "ars_nouveau:ars_nouveau.perk.feather": {
       "enabled": false,
       "min": {
@@ -451,15 +440,15 @@
         "value": 1
       }
     },
-    "cold_sweat:world_temperature": {
+    "legendarysurvivaloverhaul:heat_resistance": {
       "enabled": false,
       "min": {
-        "default": NaN,
-        "value": NaN
+        "default": 0,
+        "value": 0
       },
       "max": {
-        "default": Infinity,
-        "value": Infinity
+        "default": 10000,
+        "value": 10000
       }
     },
     "minecraft:generic.armor": {
@@ -471,6 +460,17 @@
       "max": {
         "default": 200,
         "value": 1000000
+      }
+    },
+    "legendarysurvivaloverhaul:cooling_temperature": {
+      "enabled": false,
+      "min": {
+        "default": -10000,
+        "value": -10000
+      },
+      "max": {
+        "default": 10000,
+        "value": 10000
       }
     },
     "attributeslib:prot_pierce": {
@@ -550,17 +550,6 @@
         "value": 10
       }
     },
-    "cold_sweat:cold_resistance": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1,
-        "value": 1
-      }
-    },
     "botania:pixie_spawn_chance": {
       "enabled": false,
       "min": {
@@ -583,15 +572,15 @@
         "value": 1000000
       }
     },
-    "cold_sweat:burning_point": {
+    "legendarysurvivaloverhaul:permanent_heart": {
       "enabled": false,
       "min": {
-        "default": -Infinity,
-        "value": -Infinity
+        "default": 1,
+        "value": 1
       },
       "max": {
-        "default": Infinity,
-        "value": Infinity
+        "default": 10000,
+        "value": 10000
       }
     },
     "attributeslib:arrow_damage": {

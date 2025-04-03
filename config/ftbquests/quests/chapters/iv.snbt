@@ -42,7 +42,7 @@
 		}
 		{
 			dependencies: ["63F5094821C731CA"]
-			description: ["但是接下来的每个阶段你都得合成一个小的组装机来合成对应阶段的能源仓"]
+			description: ["{ftbquests.chapter.iv.quest2.description1}"]
 			id: "25D924B587ABCF41"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -50,7 +50,7 @@
 				table_id: 7618519509353548779L
 				type: "random"
 			}]
-			subtitle: "赶紧把大机器用起来吧"
+			subtitle: "{ftbquests.chapter.iv.quest2.subtitle}"
 			tasks: [{
 				id: "713E09D457F3D461"
 				item: "gtceu:large_assembler"
@@ -153,7 +153,7 @@
 				dimension: "ad_astra:venus"
 				icon: "ad_astra:venus_globe"
 				id: "15D87EEEA7218F96"
-				title: "访问金星"
+				title: "{ftbquests.chapter.iv.quest7.task_+1574147633237299094.title}"
 				type: "dimension"
 			}]
 			x: 6.5d
@@ -205,7 +205,7 @@
 				table_id: 7618519509353548779L
 				type: "random"
 			}]
-			subtitle: "4并行，但是有点贵（"
+			subtitle: "{ftbquests.chapter.iv.quest10.subtitle}"
 			tasks: [{
 				id: "0F2B66762F42FC64"
 				item: "gtceu:iv_parallel_hatch"
@@ -276,7 +276,7 @@
 				dimension: "ad_astra:mercury"
 				icon: "ad_astra:mercury_globe"
 				id: "3068BBEAE1544360"
-				title: "访问水星"
+				title: "{ftbquests.chapter.iv.quest15.task_+3488244528875586400.title}"
 				type: "dimension"
 			}]
 			x: 6.5d
@@ -379,7 +379,6 @@
 		{
 			dependencies: [
 				"6525B3E4F6052069"
-				"503EFF0F1F7B72CB"
 				"375C2E3997D94721"
 			]
 			id: "3EE20D3AB81673F0"
@@ -403,10 +402,12 @@
 				"46E271DD7E3544D9"
 			]
 			id: "54D959569D7F0BD9"
-			subtitle: "快去制作对应小机器的大机器吧！"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "{ftbquests.chapter.iv.quest24.subtitle}"
 			tasks: [{
 				id: "55261C111E61BB45"
-				title: "大机器时代"
+				title: "{ftbquests.chapter.iv.quest24.task_+6135622402188622661.title}"
 				type: "checkmark"
 			}]
 			x: 0.5d
@@ -460,7 +461,7 @@
 				table_id: 7618519509353548779L
 				type: "random"
 			}]
-			subtitle: "第一个ZPM电路！"
+			subtitle: "{ftbquests.chapter.iv.quest28.subtitle}"
 			tasks: [{
 				id: "39324AD517C3F569"
 				item: "gtceu:quantum_processor_mainframe"
@@ -472,7 +473,7 @@
 		{
 			dependencies: ["2A6527B0F4AC3E2E"]
 			id: "2E7C183CC818424B"
-			subtitle: "更好的材料"
+			subtitle: "{ftbquests.chapter.iv.quest29.subtitle}"
 			tasks: [
 				{
 					id: "1DA0467955C095D1"
@@ -485,7 +486,7 @@
 					type: "item"
 				}
 			]
-			title: "另外两种高速钢"
+			title: "{ftbquests.chapter.iv.quest29.title}"
 			x: -1.5d
 			y: -1.0d
 		}
@@ -501,7 +502,7 @@
 				table_id: 7618519509353548779L
 				type: "random"
 			}]
-			subtitle: "更好的贴片"
+			subtitle: "{ftbquests.chapter.iv.quest30.subtitle}"
 			tasks: [
 				{
 					id: "40E6A52A4805A66F"
@@ -529,14 +530,14 @@
 					type: "item"
 				}
 			]
-			title: "高级贴片"
+			title: "{ftbquests.chapter.iv.quest30.title}"
 			x: -1.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["0B92B29E066D2E88"]
 			id: "2A6527B0F4AC3E2E"
-			subtitle: "可以搓大型搅拌"
+			subtitle: "{ftbquests.chapter.iv.quest31.subtitle}"
 			tasks: [{
 				id: "18F66388FB38E25C"
 				item: "gtceu:iv_mixer"
@@ -562,7 +563,7 @@
 				"114C14B4DBCEF015"
 			]
 			id: "55F51D261FC8E78B"
-			subtitle: "推荐你使用萘来合成它"
+			subtitle: "{ftbquests.chapter.iv.quest33.subtitle}"
 			tasks: [{
 				id: "7A5CDC5E8B2DB22B"
 				item: "gtceu:phthalic_acid_bucket"
@@ -591,7 +592,7 @@
 				table_id: 7618519509353548779L
 				type: "random"
 			}]
-			subtitle: "你必须拥有它，不然你在金星会死"
+			subtitle: "{ftbquests.chapter.iv.quest35.subtitle}"
 			tasks: [
 				{
 					id: "341D76F512FCFE3F"
@@ -663,12 +664,12 @@
 		}
 		{
 			id: "114C14B4DBCEF015"
-			subtitle: "PBI产线"
+			subtitle: "{ftbquests.chapter.iv.quest36.subtitle}"
 			tasks: [{
 				id: "3C7BD88EE03CEDD0"
 				type: "checkmark"
 			}]
-			title: "聚苯并咪唑"
+			title: "{ftbquests.chapter.iv.quest36.title}"
 			x: 0.5d
 			y: -10.5d
 		}
@@ -755,7 +756,7 @@
 			id: "67B1DCF33DA1537D"
 			tasks: [{
 				id: "041C979A41757455"
-				title: "PSS产线"
+				title: "{ftbquests.chapter.iv.quest43.task_+296278364278584405.title}"
 				type: "checkmark"
 			}]
 			x: 0.5d
@@ -839,7 +840,7 @@
 					type: "item"
 				}
 			]
-			title: "新的橡胶"
+			title: "{ftbquests.chapter.iv.quest48.title}"
 			x: 2.5d
 			y: -2.5d
 		}
@@ -847,7 +848,7 @@
 			id: "42BA70F3031EB46B"
 			tasks: [{
 				id: "75EBDFEBF3875A93"
-				title: "你需要用到这两种新的橡胶"
+				title: "{ftbquests.chapter.iv.quest49.task_+8497131326460615315.title}"
 				type: "checkmark"
 			}]
 			x: 4.5d
@@ -865,7 +866,7 @@
 				table_id: 7618519509353548779L
 				type: "random"
 			}]
-			subtitle: "硅岩产线的开始"
+			subtitle: "{ftbquests.chapter.iv.quest50.subtitle}"
 			tasks: [{
 				id: "325A7FFA6546DE1E"
 				item: "gtnn:neutron_activator"
@@ -876,7 +877,7 @@
 		}
 		{
 			dependencies: ["49534975B8942923"]
-			description: ["处理详情见矿物处理章节"]
+			description: ["{ftbquests.chapter.iv.quest51.description1}"]
 			id: "3024C689060DBB33"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -884,7 +885,7 @@
 				table_id: 7618519509353548779L
 				type: "random"
 			}]
-			subtitle: "初步的硅岩处理"
+			subtitle: "{ftbquests.chapter.iv.quest51.subtitle}"
 			tasks: [{
 				id: "6F3E1BDF97B9A711"
 				item: "gtceu:naquadah_dust"
@@ -895,8 +896,8 @@
 		}
 		{
 			dependencies: [
-				"3024C689060DBB33"
 				"4A412A967394C59E"
+				"75B002E120AA161D"
 			]
 			id: "258BBAE74ED9B2CE"
 			rewards: [{
@@ -912,7 +913,7 @@
 				item: "gtceu:naquadah_coil_block"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 8.5d
 			y: -10.5d
 		}
 		{
@@ -924,7 +925,7 @@
 				table_id: 7618519509353548779L
 				type: "random"
 			}]
-			subtitle: "ZPM的重要材料"
+			subtitle: "{ftbquests.chapter.iv.quest53.subtitle}"
 			tasks: [{
 				id: "195043829173C0E7"
 				item: "gtceu:naquadah_alloy_dust"
@@ -942,7 +943,7 @@
 				table_id: 7618519509353548779L
 				type: "random"
 			}]
-			subtitle: "ZPM超导"
+			subtitle: "{ftbquests.chapter.iv.quest54.subtitle}"
 			tasks: [{
 				id: "11309F2FDDC557B1"
 				item: "gtceu:uranium_rhodium_dinaquadide_dust"
@@ -962,7 +963,7 @@
 			}]
 			shape: "rsquare"
 			size: 1.5d
-			subtitle: "LUV的开始"
+			subtitle: "{ftbquests.chapter.iv.quest55.subtitle}"
 			tasks: [{
 				id: "3D6C6ADBFE307348"
 				item: "gtceu:rhodium_plated_palladium_ingot"
@@ -1035,7 +1036,7 @@
 				"31057AC4F85B71CE"
 				"0C56A770E0AA5FE2"
 			]
-			description: ["装配线自动化在高版本很简单，只需要用AE的主网接子网即可实现,实在不会可以使用B站搜索"]
+			description: ["{ftbquests.chapter.iv.quest61.description1}"]
 			icon: "gtceu:assembly_line"
 			id: "38B6939B719B9C30"
 			rewards: [{
@@ -1046,7 +1047,7 @@
 			}]
 			shape: "rsquare"
 			size: 1.5d
-			subtitle: "只能用ULV输入总线！"
+			subtitle: "{ftbquests.chapter.iv.quest61.subtitle}"
 			tasks: [
 				{
 					id: "3984BE87EE600303"
@@ -1090,7 +1091,7 @@
 		{
 			dependencies: ["50E59136344B029F"]
 			id: "69C0EA16863038E7"
-			subtitle: "将闪存或数据球塞进去"
+			subtitle: "{ftbquests.chapter.iv.quest62.subtitle}"
 			tasks: [{
 				id: "349BEA93B1897763"
 				item: "gtceu:data_access_hatch"
@@ -1102,7 +1103,7 @@
 		{
 			dependencies: ["50E59136344B029F"]
 			id: "31057AC4F85B71CE"
-			subtitle: "有了它你的闪存才有用"
+			subtitle: "{ftbquests.chapter.iv.quest63.subtitle}"
 			tasks: [{
 				id: "77B9AD21052554D0"
 				item: "gtceu:iv_scanner"
@@ -1137,7 +1138,7 @@
 			}]
 			shape: "rsquare"
 			size: 1.5d
-			subtitle: "ZPM的开始"
+			subtitle: "{ftbquests.chapter.iv.quest65.subtitle}"
 			tasks: [{
 				id: "480035A6DEFB0C2A"
 				item: "gtceu:naquadah_alloy_ingot"
@@ -1148,15 +1149,15 @@
 		}
 		{
 			description: [
-				"运行装配线配方时，必须有序输入"
-				"装配线可以双仓升压"
-				"装配线只能装一个数据访问仓，所以你得尽快做出数据库"
+				"{ftbquests.chapter.iv.quest66.description1}"
+				"{ftbquests.chapter.iv.quest66.description2}"
+				"{ftbquests.chapter.iv.quest66.description3}"
 			]
 			id: "28C5FFD22F9B4FEF"
-			subtitle: "装配线"
+			subtitle: "{ftbquests.chapter.iv.quest66.subtitle}"
 			tasks: [{
 				id: "507A01A0F2C8276C"
-				title: "装配线注意事项"
+				title: "{ftbquests.chapter.iv.quest66.task_+5798949260972533612.title}"
 				type: "checkmark"
 			}]
 			x: -4.5d
@@ -1181,7 +1182,7 @@
 			id: "3409E0910FCB61B9"
 			tasks: [{
 				id: "41927386805769E4"
-				title: "做出硅岩后，试试硅岩发电"
+				title: "{ftbquests.chapter.iv.quest68.task_+4724965980581095908.title}"
 				type: "checkmark"
 			}]
 			x: 6.5d
@@ -1209,6 +1210,7 @@
 				"69C0EA16863038E7"
 				"364B921AAE54EF9C"
 			]
+			description: ["{ftbquests.chapter.iv.quest70.description1}"]
 			id: "27EC2E4B61A056E0"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1216,7 +1218,7 @@
 				table_id: 7618519509353548779L
 				type: "random"
 			}]
-			subtitle: "一个装配线只能装一个数据仓,所以你需要数据库"
+			subtitle: "{ftbquests.chapter.iv.quest70.subtitle}"
 			tasks: [{
 				id: "367D336517F7EFB2"
 				item: "gtceu:data_bank"
@@ -1254,7 +1256,7 @@
 				table_id: 7618519509353548779L
 				type: "random"
 			}]
-			subtitle: "数据球和需要被扫描物都塞到物品支架里"
+			subtitle: "{ftbquests.chapter.iv.quest72.subtitle}"
 			tasks: [{
 				id: "4FB2DC37F499DCB6"
 				item: "gtceu:research_station"
@@ -1262,18 +1264,6 @@
 			}]
 			x: -5.5d
 			y: 6.5d
-		}
-		{
-			dependencies: ["08428BDD673EEC5A"]
-			id: "0E12C0B3D9F7C34D"
-			subtitle: "UHV材料"
-			tasks: [{
-				id: "1843711AD3D37DCE"
-				item: "gtceu:uhpic_wafer"
-				type: "item"
-			}]
-			x: 6.5d
-			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -1288,19 +1278,19 @@
 				table_id: 7618519509353548779L
 				type: "random"
 			}]
-			subtitle: "发电很不戳"
+			subtitle: "{ftbquests.chapter.iv.quest73.subtitle}"
 			tasks: [{
 				id: "2BD6BA869C2B8EC1"
 				item: "gtceu:enriched_naquadah_ingot"
 				type: "item"
 			}]
 			x: 8.5d
-			y: -10.5d
+			y: -8.5d
 		}
 		{
-			description: ["就是步骤多了点，还是能接受的，毕竟产物摆在那里呢"]
+			description: ["{ftbquests.chapter.iv.quest74.description1}"]
 			id: "322F3AB4C2159BA6"
-			subtitle: "准备好了在来！"
+			subtitle: "{ftbquests.chapter.iv.quest74.subtitle}"
 			tasks: [{
 				id: "53E22F6FB6888FED"
 				item: "gtceu:rare_earth_dust"
@@ -1412,7 +1402,7 @@
 					type: "item"
 				}
 			]
-			title: "亲和力稀土"
+			title: "{ftbquests.chapter.iv.quest83.title}"
 			x: 2.5d
 			y: 6.5d
 		}
@@ -1494,25 +1484,25 @@
 			y: 12.5d
 		}
 		{
-			dependencies: ["46DE226BC1554369"]
+			dependencies: ["2D9A92A48E5B7EED"]
 			id: "08F6ED9546D2B275"
 			tasks: [{
 				id: "0736D1383971505C"
 				item: "gtceu:rare_earth_middle_fluoride_steam_bucket"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 2.5d
 			y: 12.5d
 		}
 		{
-			dependencies: ["2D9A92A48E5B7EED"]
+			dependencies: ["46DE226BC1554369"]
 			id: "09A053412B602BAF"
 			tasks: [{
 				id: "39C601FC6BC51EF0"
 				item: "gtceu:rare_earth_high_fluoride_steam_bucket"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 0.5d
 			y: 12.5d
 		}
 		{
@@ -1539,6 +1529,7 @@
 					type: "item"
 				}
 			]
+			title: "轻，中，重？"
 			x: 2.5d
 			y: 14.5d
 		}
@@ -1562,16 +1553,17 @@
 					type: "item"
 				}
 			]
+			title: "轻，中，重!"
 			x: 4.5d
 			y: 14.5d
 		}
 		{
 			dependencies: ["14EE5543DC5E4D5D"]
 			id: "2AE97425476D5584"
-			subtitle: "还有钪和钇"
+			subtitle: "{ftbquests.chapter.iv.quest95.subtitle}"
 			tasks: [{
 				id: "42ECF3A7680057D3"
-				title: "镧系大家族"
+				title: "{ftbquests.chapter.iv.quest95.task_+4822497201336899539.title}"
 				type: "checkmark"
 			}]
 			x: 6.5d
@@ -1726,7 +1718,7 @@
 			}]
 			tasks: [{
 				id: "20A5FE7B29CB18C3"
-				item: "gtceu:crystallizer"
+				item: "ctnhcore:crystallizer"
 				type: "item"
 			}]
 			x: -1.5d
@@ -1742,7 +1734,7 @@
 			}]
 			tasks: [{
 				id: "69692022DA0E282C"
-				item: "gtceu:ion_exchanger"
+				item: "ctnhcore:ion_exchanger"
 				type: "item"
 			}]
 			x: -1.5d
@@ -1758,27 +1750,11 @@
 			}]
 			tasks: [{
 				id: "0F96A52A870B351C"
-				item: "gtceu:vacuum_sintering_tower"
+				item: "ctnhcore:vacuum_sintering_tower"
 				type: "item"
 			}]
 			x: -1.5d
 			y: 8.5d
-		}
-		{
-			id: "52DE065417BA9260"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "093B6FDE636C97FE"
-				table_id: 7618519509353548779L
-				type: "random"
-			}]
-			tasks: [{
-				id: "4257922294CF0356"
-				item: "gtceu:condensate_separator"
-				type: "item"
-			}]
-			x: -1.5d
-			y: 10.5d
 		}
 		{
 			dependencies: [
@@ -1786,7 +1762,7 @@
 				"3B966B84827FDF0C"
 			]
 			id: "209FAC261240DA4E"
-			subtitle: "LUV超导"
+			subtitle: "{ftbquests.chapter.iv.quest103.subtitle}"
 			tasks: [{
 				id: "2697C33C4F09597C"
 				item: "gtceu:indium_tin_barium_titanium_cuprate_ingot"
@@ -1844,14 +1820,14 @@
 				type: "item"
 			}]
 			x: 10.5d
-			y: 8.5d
+			y: 10.5d
 		}
 		{
 			dependencies: [
 				"474F529118B9CF93"
 				"55B8C88C78AFF283"
 			]
-			description: ["但是你得LUV才能使用（"]
+			description: ["{ftbquests.chapter.iv.quest107.description1}"]
 			id: "754CF2D0D96359C3"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1859,19 +1835,25 @@
 				table_id: 7618519509353548779L
 				type: "random"
 			}]
-			subtitle: "最便宜的IV电路"
+			subtitle: "{ftbquests.chapter.iv.quest107.subtitle}"
 			tasks: [{
 				id: "63803169D270B9D6"
 				item: "gtceu:crystal_cpu"
 				type: "item"
 			}]
 			x: 10.5d
-			y: 6.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["474F529118B9CF93"]
 			id: "69CD0122AD8B7CF4"
-			subtitle: "可循环"
+			rewards: [{
+				count: 64
+				id: "7AC503CD2296CF11"
+				item: "gtceu:raw_crystal_chip_parts"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.iv.quest108.subtitle}"
 			tasks: [{
 				id: "0131355E2F486602"
 				item: "gtceu:raw_crystal_chip_parts"
@@ -1888,7 +1870,7 @@
 				table_id: 7618519509353548779L
 				type: "random"
 			}]
-			subtitle: "你需要他来制作大机器的合金外壳"
+			subtitle: "{ftbquests.chapter.iv.quest109.subtitle}"
 			tasks: [{
 				id: "568175057782A686"
 				item: "gtceu:alloy_blast_smelter"
@@ -1898,7 +1880,13 @@
 			y: 2.5d
 		}
 		{
+			description: [
+				"{ftbquests.chapter.iv.quest110.description1}"
+				"{ftbquests.chapter.iv.quest110.description2}"
+				"{ftbquests.chapter.iv.quest110.description3}"
+			]
 			id: "364B921AAE54EF9C"
+			subtitle: "{ftbquests.chapter.iv.quest110.subtitle}"
 			tasks: [{
 				id: "5C6F7ED326438A39"
 				item: "gtceu:normal_optical_pipe"
@@ -1911,12 +1899,94 @@
 			id: "350ED47A651E9298"
 			tasks: [{
 				id: "706418CF350C03A8"
-				title: "趁现在多囤点，说不定那时候稀土线就重做了"
+				title: "{ftbquests.chapter.iv.quest111.task_+8098625308146271144.title}"
 				type: "checkmark"
 			}]
 			x: 4.5d
 			y: 6.5d
 		}
+		{
+			dependencies: ["1B08CB9E24BDF006"]
+			id: "43A67D7528B8D846"
+			rewards: [{
+				count: 64
+				id: "5F746B357CC50865"
+				item: "gtceu:samarium_dust"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.iv.quest112.subtitle}"
+			tasks: [{
+				id: "1EF8508BC90B5785"
+				item: "gtceu:samarium_ingot"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["3024C689060DBB33"]
+			id: "75B002E120AA161D"
+			tasks: [{
+				id: "032CDA03214DF852"
+				item: "gtceu:naquadah_ingot"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["75B002E120AA161D"]
+			id: "4E9CD9836B42D55D"
+			tasks: [{
+				id: "0D35D50BA50B2195"
+				item: "gtceu:naquadah_boule"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["4E9CD9836B42D55D"]
+			id: "5607D261213C3EC2"
+			subtitle: "{ftbquests.chapter.iv.quest115.subtitle}"
+			tasks: [{
+				id: "06C8E144BDF5FD0C"
+				item: "gtceu:advanced_soc_wafer"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -10.5d
+		}
+		{
+			id: "613B471B9179A7C6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "786184F24CAC10AC"
+				table_id: 7618519509353548779L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "4903D201B3DDFF61"
+				item: "ctnhcore:condensing_discrete"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["29086C6A9A5FA58E"]
+			description: ["我们（）人的化工厂太厉害辣！"]
+			id: "67ECE72F05370C16"
+			size: 2.0d
+			subtitle: "超级化工厂"
+			tasks: [{
+				id: "0E390E300A626B51"
+				item: "ctnhcore:sinope_chemical"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -14.5d
+		}
 	]
-	title: "&9IV&r时期"
+	title: "{ftbquests.chapter.iv.title}"
 }

@@ -82,7 +82,7 @@
 			id: "4D2FAC9783965D60"
 			tasks: [{
 				id: "7CCB2A5C53D2CDFE"
-				title: "深度石化"
+				title: "{ftbquests.chapter.hv.quest5.task_+8992327657007009278.title}"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -100,7 +100,7 @@
 				table_id: 723892772024061161L
 				type: "random"
 			}]
-			subtitle: "无损超频！"
+			subtitle: "{ftbquests.chapter.hv.quest6.subtitle}"
 			tasks: [{
 				id: "6FD9026EFF3CC78B"
 				item: "gtceu:large_chemical_reactor"
@@ -120,20 +120,6 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["2758CA5AD758482C"]
-			id: "7433DD6519C5D9E9"
-			subtitle: "铂系产线的起点"
-			tasks: [{
-				count: 16L
-				id: "028B52BC54F18916"
-				item: { Count: 16, id: "gtceu:raw_cooperite" }
-				type: "item"
-			}]
-			title: "谢尔顿矿"
-			x: 2.5d
-			y: -4.0d
-		}
-		{
 			dependencies: ["36968F23015BC87A"]
 			id: "0FE31211C32BF813"
 			rewards: [{
@@ -151,7 +137,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["7433DD6519C5D9E9"]
+			dependencies: ["67FD8ABB15A41C68"]
 			id: "252739AF54D430F1"
 			tasks: [{
 				id: "5BBD12AD739833B5"
@@ -219,7 +205,10 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["082ABAF36B6EC7DC"]
+			dependencies: [
+				"082ABAF36B6EC7DC"
+				"1BAF86C7B922C673"
+			]
 			id: "1330F4F7A3E4C61C"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -227,6 +216,7 @@
 				table_id: 723892772024061161L
 				type: "random"
 			}]
+			subtitle: "似乎需要来自天域的天文数据"
 			tasks: [{
 				id: "1DAA2AAE86D784F1"
 				item: "gtnn:t1_chip"
@@ -236,22 +226,22 @@
 			y: 1.0d
 		}
 		{
-			description: ["    仔细观察发现，要想获得铂锭，铂系处理需要以谢尔顿矿开始，而谢尔顿矿只存在于外太空中，这样就产生了一个矛盾：&4造火箭需要上太空，上太空需要造火箭&r。这时，机智的你产生了一个想法，&a向外太空发射信号，向天祈求携带着外太空矿石的陨石落下&r，不就解决了这一问题吗？"]
+			description: ["{ftbquests.chapter.hv.quest15.description1}"]
 			hide_dependency_lines: true
 			id: "2758CA5AD758482C"
-			subtitle: "坠星仪式！"
+			subtitle: "{ftbquests.chapter.hv.quest15.subtitle}"
 			tasks: [{
 				id: "7B231156184BDCBE"
 				item: "gtceu:hv_emitter"
 				type: "item"
 			}]
-			x: 2.5d
+			x: -2.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["11F898C7B0C925D5"]
 			id: "1E21F35AB1E1A7ED"
-			subtitle: "一堆板板"
+			subtitle: "{ftbquests.chapter.hv.quest16.subtitle}"
 			tasks: [
 				{
 					id: "5228260E088B98CA"
@@ -269,7 +259,7 @@
 					type: "item"
 				}
 			]
-			title: "强化材料"
+			title: "{ftbquests.chapter.hv.quest16.title}"
 			x: 0.0d
 			y: 2.0d
 		}
@@ -315,14 +305,15 @@
 				"1157261D1C6FA682"
 				"16243C6CC9C1CD8A"
 			]
+			dependency_requirement: "one_completed"
 			id: "3123CD3DCE3598C8"
 			shape: "gear"
 			size: 1.5d
-			subtitle: "这是ad的一小步，却是你的一大步"
+			subtitle: "{ftbquests.chapter.hv.quest19.subtitle}"
 			tasks: [{
 				dimension: "ad_astra:moon"
 				id: "74AC1AB43328B3C5"
-				title: "访问月球"
+				title: "{ftbquests.chapter.hv.quest19.task_+8407123965648614341.title}"
 				type: "dimension"
 			}]
 			x: 9.5d
@@ -333,8 +324,13 @@
 				"609BE0CAB05D3EA6"
 				"458DB8BA0CA5475B"
 			]
+			dependency_requirement: "one_completed"
+			description: [
+				"{ftbquests.chapter.hv.quest20.description1}"
+				"{ftbquests.chapter.hv.quest20.description2}"
+			]
 			id: "1157261D1C6FA682"
-			subtitle: "可以拿来喂内燃)"
+			subtitle: "{ftbquests.chapter.hv.quest20.subtitle}"
 			tasks: [{
 				id: "1609294E625640DE"
 				item: "gtceu:rocket_fuel_bucket"
@@ -395,7 +391,7 @@
 				"17F0388258A83E1F"
 			]
 			id: "29C2D8D206649CE5"
-			subtitle: "你可以更高效的获取稀有气体了"
+			subtitle: "{ftbquests.chapter.hv.quest25.subtitle}"
 			tasks: [{
 				id: "4357D0B40FF23BAF"
 				item: "gtceu:liquid_air_bucket"
@@ -416,7 +412,7 @@
 				table_id: 723892772024061161L
 				type: "random"
 			}]
-			subtitle: "可以直接用宇航服左键机器里的氧气"
+			subtitle: "{ftbquests.chapter.hv.quest26.subtitle}"
 			tasks: [
 				{
 					id: "1535BCEA15D7660A"
@@ -517,10 +513,13 @@
 		}
 		{
 			dependencies: [
-				"1EF69C314E045882"
-				"17F0388258A83E1F"
 				"2B5737AFD88F1BA5"
+				"1B795CD06F89FD31"
+				"2A96D56A1C253D7A"
+				"17F0388258A83E1F"
+				"3763A1DEB0424140"
 			]
+			dependency_requirement: "one_completed"
 			id: "27EF0EE87260585F"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -530,25 +529,14 @@
 			}]
 			shape: "rsquare"
 			size: 1.5d
-			subtitle: "EV时代的重要材料"
+			subtitle: "{ftbquests.chapter.hv.quest29.subtitle}"
 			tasks: [{
 				id: "45D0761160D1DB1D"
 				item: "gtceu:titanium_ingot"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 8.05357142857143d
-		}
-		{
-			dependencies: ["054DC65B4D479B15"]
-			id: "1EF69C314E045882"
-			tasks: [{
-				id: "34B1816F1D7BF64E"
-				item: "gtceu:titanium_tetrachloride_bucket"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 8.0d
+			x: -3.9642857142857153d
+			y: 7.928571428571431d
 		}
 		{
 			dependencies: ["424772830FBFDBB7"]
@@ -558,7 +546,7 @@
 				item: "gtceu:rutile_dust"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 5.0d
 			y: 8.0d
 		}
 		{
@@ -569,27 +557,27 @@
 				{
 					count: 16L
 					id: "2B1FA54B7A24075E"
-					item: { Count: 16, id: "gtceu:raw_bauxite" }
+					item: "gtceu:raw_bauxite"
 					type: "item"
 				}
 				{
 					count: 16L
 					id: "1B064681E25AA75D"
-					item: { Count: 16, id: "gtceu:raw_ilmenite" }
+					item: "gtceu:raw_ilmenite"
 					type: "item"
 				}
 			]
-			title: "钛的来源"
-			x: 2.5d
+			title: "{ftbquests.chapter.hv.quest31.title}"
+			x: 7.5d
 			y: 8.0d
 		}
 		{
 			dependencies: ["773CB6E376B56EA4"]
 			description: [
-				"    超净间是HV阶段往后大部分电路板合成所不可或缺的环境，所以尽可能做一个大的超净间吧。"
+				"{ftbquests.chapter.hv.quest32.description1}"
 				""
-				"&a二极管&r：允许电流通过"
-				"&a机械方块&r：允许AE2的频道通过"
+				"{ftbquests.chapter.hv.quest32.description2}"
+				"{ftbquests.chapter.hv.quest32.description3}"
 			]
 			id: "1AF8205ECB9C3737"
 			rewards: [{
@@ -607,7 +595,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["42552E404237FB96"]
+			dependencies: ["3AE584B3EBC63A09"]
 			id: "1327BF0797F9200E"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -620,16 +608,16 @@
 				item: "gtceu:mv_circuit_assembler"
 				type: "item"
 			}]
-			x: -6.5d
-			y: -4.0d
+			x: -7.0d
+			y: -6.0d
 		}
 		{
 			dependencies: [
-				"1327BF0797F9200E"
 				"1AF8205ECB9C3737"
+				"36B5DCFEE8A73F25"
 			]
 			id: "607209201C6B08C3"
-			subtitle: "有了这个才可以做EV阶段的机器"
+			subtitle: "{ftbquests.chapter.hv.quest34.subtitle}"
 			tasks: [{
 				id: "528033D7775227C1"
 				item: "gtceu:micro_processor_computer"
@@ -825,14 +813,14 @@
 				item: "gtceu:hv_assembler"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -3.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["071A728A18E21B3C"]
-			description: ["贴片二极管需要在获得铂之后才能制作"]
+			description: ["{ftbquests.chapter.hv.quest51.description1}"]
 			id: "1511963A19F70BC2"
-			subtitle: "更加方便的贴片材料"
+			subtitle: "{ftbquests.chapter.hv.quest51.subtitle}"
 			tasks: [
 				{
 					id: "510E93BFBA890CF9"
@@ -860,8 +848,8 @@
 					type: "item"
 				}
 			]
-			title: "贴片！"
-			x: -2.0d
+			title: "{ftbquests.chapter.hv.quest51.title}"
+			x: -3.0d
 			y: -4.0d
 		}
 		{
@@ -888,7 +876,7 @@
 				"2F8F679EAC693ACE"
 			]
 			id: "23822AE831A41F5D"
-			subtitle: "远程传输神器"
+			subtitle: "{ftbquests.chapter.hv.quest53.subtitle}"
 			tasks: [{
 				id: "2053627AA2187C74"
 				item: "gtceu:ender_fluid_link_cover"
@@ -903,7 +891,7 @@
 				"35205D5CBE5A1498"
 			]
 			id: "3A77F81F2F6E792A"
-			subtitle: "神！"
+			subtitle: "{ftbquests.chapter.hv.quest54.subtitle}"
 			tasks: [{
 				id: "3E805DF6AD913252"
 				item: "kubejs:platinum_metal_catalyst"
@@ -936,7 +924,7 @@
 			dependencies: ["773CB6E376B56EA4"]
 			hide_dependency_lines: true
 			id: "2693AB1D8C40E181"
-			subtitle: "有了这机器，你的催化剂才有用"
+			subtitle: "{ftbquests.chapter.hv.quest57.subtitle}"
 			tasks: [{
 				id: "1CAD59C11FB75991"
 				item: "gtceu:mana_seperator"
@@ -954,7 +942,7 @@
 				table_id: 723892772024061161L
 				type: "random"
 			}]
-			subtitle: "是时候缓解主世界工业区的帧数压力了"
+			subtitle: "{ftbquests.chapter.hv.quest58.subtitle}"
 			tasks: [{
 				id: "20A0E9B6A5B2D2F0"
 				item: "javd:portal_block"
@@ -966,42 +954,42 @@
 		{
 			id: "3A0D1B6A8BB681C8"
 			invisible: true
-			subtitle: "跳过任务线"
+			subtitle: "{ftbquests.chapter.hv.quest59.subtitle}"
 			tasks: [{
 				count: 64L
 				id: "4E2EAEAFAAF5306A"
 				item: "gtceu:platinum_dust"
 				type: "item"
 			}]
-			title: "铂的任务"
+			title: "{ftbquests.chapter.hv.quest59.title}"
 			x: 5.0d
 			y: 1.0d
 		}
 		{
 			id: "2D0E2C949FAD45B3"
 			invisible: true
-			subtitle: "跳过任务线"
+			subtitle: "{ftbquests.chapter.hv.quest60.subtitle}"
 			tasks: [{
 				count: 64L
 				id: "5F3870CF15D508F8"
-				item: { Count: 64, id: "gtceu:palladium_dust" }
+				item: "gtceu:palladium_dust"
 				type: "item"
 			}]
-			title: "钯的任务"
+			title: "{ftbquests.chapter.hv.quest60.title}"
 			x: 10.0d
 			y: 0.0d
 		}
 		{
 			id: "2CF0374F90D4B470"
 			invisible: true
-			subtitle: "跳过任务线"
+			subtitle: "{ftbquests.chapter.hv.quest61.subtitle}"
 			tasks: [{
 				count: 64L
 				id: "660223EB3F113A6E"
-				item: { Count: 64, id: "gtceu:ruthenium_dust" }
+				item: "gtceu:ruthenium_dust"
 				type: "item"
 			}]
-			title: "钌的任务"
+			title: "{ftbquests.chapter.hv.quest61.title}"
 			x: 11.5d
 			y: -2.0d
 		}
@@ -1100,14 +1088,14 @@
 		{
 			id: "06D3380949C950AB"
 			invisible: true
-			subtitle: "跳过任务线"
+			subtitle: "{ftbquests.chapter.hv.quest70.subtitle}"
 			tasks: [{
 				count: 64L
 				id: "45CC34EA60CF9DB9"
-				item: { Count: 64, id: "gtceu:rhodium_dust" }
+				item: "gtceu:rhodium_dust"
 				type: "item"
 			}]
-			title: "铑的任务"
+			title: "{ftbquests.chapter.hv.quest70.title}"
 			x: 3.0d
 			y: -10.5d
 		}
@@ -1139,28 +1127,6 @@
 		}
 		{
 			dependencies: ["5E1597F46B29ED41"]
-			id: "4952DF3543D61F75"
-			tasks: [{
-				id: "5D5B9C56EE231127"
-				item: "gtceu:iridium_dioxide_dust"
-				type: "item"
-			}]
-			x: 7.0d
-			y: -7.5d
-		}
-		{
-			dependencies: ["4952DF3543D61F75"]
-			id: "53CB72F3D1CFC988"
-			tasks: [{
-				id: "0819BE20ABD3B68C"
-				item: "gtceu:acidic_iridium_bucket"
-				type: "item"
-			}]
-			x: 7.0d
-			y: -9.0d
-		}
-		{
-			dependencies: ["53CB72F3D1CFC988"]
 			id: "10485A3F097F8879"
 			tasks: [{
 				id: "24D1DF3F77D16937"
@@ -1168,7 +1134,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: -10.5d
+			y: -7.5d
 		}
 		{
 			dependencies: [
@@ -1182,22 +1148,22 @@
 				item: "gtceu:iridium_dust"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -10.5d
+			x: 7.0d
+			y: -9.0d
 		}
 		{
 			id: "68D549689E87C106"
 			invisible: true
-			subtitle: "跳过任务线"
+			subtitle: "{ftbquests.chapter.hv.quest75.subtitle}"
 			tasks: [{
 				count: 16L
 				id: "59AB4F7BD08AC5CA"
-				item: { Count: 16, id: "gtceu:iridium_dust" }
+				item: "gtceu:iridium_dust"
 				type: "item"
 			}]
-			title: "铱的任务"
-			x: 8.5d
-			y: -9.0d
+			title: "{ftbquests.chapter.hv.quest75.title}"
+			x: 7.0d
+			y: -10.5d
 		}
 		{
 			id: "2B5737AFD88F1BA5"
@@ -1221,48 +1187,33 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["41633F254B076032"]
+			dependencies: [
+				"41633F254B076032"
+				"1511963A19F70BC2"
+			]
 			id: "216D57DF2B38AB9D"
-			subtitle: "你的第一种IV电路！"
+			subtitle: "{ftbquests.chapter.hv.quest78.subtitle}"
 			tasks: [{
 				id: "18213736BD2BD5B2"
 				item: "gtceu:micro_processor_mainframe"
 				type: "item"
 			}]
-			x: -6.5d
+			x: -3.0d
 			y: -6.0d
 		}
 		{
 			dependencies: [
-				"2758CA5AD758482C"
-				"773CB6E376B56EA4"
+				"1A760D451E9D23B0"
+				"5CF841D44D3A2035"
 			]
-			id: "0EDC06CD857700E0"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "42867B53F0955106"
-				table_id: 723892772024061161L
-				type: "random"
-			}]
-			subtitle: "更快！"
-			tasks: [{
-				id: "651C46324F640F54"
-				item: "gtceu:hv_laser_engraver"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["1A760D451E9D23B0"]
 			id: "2BDF8762C9C51323"
 			tasks: [{
 				id: "02689251EA9A927F"
 				item: "gtceu:mercury_barium_calcium_cuprate_ingot"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 8.0d
+			x: -8.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["2BDF8762C9C51323"]
@@ -1272,48 +1223,22 @@
 				item: "gtceu:hv_field_generator"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 8.0d
-		}
-		{
-			dependencies: [
-				"0EDC06CD857700E0"
-				"6960D8238C5B49EB"
-				"147567E48E8786C3"
-			]
-			id: "399A7EA8DD295894"
-			tasks: [{
-				id: "7989E57F45477E1D"
-				item: "gtceu:mpic_wafer"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -8.0d
+			x: -8.5d
+			y: 4.0d
 		}
 		{
 			id: "7CD360494125BA99"
 			invisible: true
-			subtitle: "跳过任务线"
+			subtitle: "{ftbquests.chapter.hv.quest81.subtitle}"
 			tasks: [{
 				count: 16L
 				id: "48299A65BAD100EC"
-				item: { Count: 16, id: "gtceu:osmium_dust" }
+				item: "gtceu:osmium_dust"
 				type: "item"
 			}]
-			title: "锇的任务"
+			title: "{ftbquests.chapter.hv.quest81.title}"
 			x: 5.5d
 			y: -10.5d
-		}
-		{
-			dependencies: ["399A7EA8DD295894"]
-			id: "00497F96E769342D"
-			tasks: [{
-				id: "1316DBC3BF0665E6"
-				item: "gtceu:hv_energy_input_hatch"
-				type: "item"
-			}]
-			x: -2.0d
-			y: -8.0d
 		}
 		{
 			dependencies: ["29C2D8D206649CE5"]
@@ -1323,7 +1248,7 @@
 				item: "gtceu:helium_bucket"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -2.5d
 			y: 6.0d
 		}
 		{
@@ -1334,25 +1259,8 @@
 				item: "gtceu:argon_bucket"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.5d
 			y: 6.0d
-		}
-		{
-			dependencies: ["773CB6E376B56EA4"]
-			id: "147567E48E8786C3"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0F3A69CDF2D313BC"
-				table_id: 723892772024061161L
-				type: "random"
-			}]
-			tasks: [{
-				id: "0D3F5432587823A0"
-				item: "gtceu:hv_cutter"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -1380,6 +1288,7 @@
 			dependencies: [
 				"521AD580276AA163"
 				"08AE2ABB1248EB22"
+				"01C6E42C3A2CD71B"
 			]
 			id: "3786456D98520C42"
 			tasks: [{
@@ -1394,6 +1303,7 @@
 			dependencies: [
 				"103CE9721B2403ED"
 				"4621D3570BFF6D64"
+				"5E26659E0AAF852A"
 			]
 			id: "04CED50A5D7434CE"
 			tasks: [{
@@ -1405,7 +1315,10 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["30A047CA07E56044"]
+			dependencies: [
+				"30A047CA07E56044"
+				"36707EABE35EE4A1"
+			]
 			hide_dependency_lines: true
 			id: "11091A0414B528CC"
 			tasks: [{
@@ -1420,6 +1333,7 @@
 			dependencies: [
 				"5E4D6306680A9D9A"
 				"2ABB6571FA2367C6"
+				"7A5FD21873050AFA"
 			]
 			id: "27BE8B7164A2DA98"
 			tasks: [{
@@ -1545,7 +1459,7 @@
 		}
 		{
 			id: "6A2ECBA15C3DCCCF"
-			subtitle: "不需要很多"
+			subtitle: "{ftbquests.chapter.hv.quest99.subtitle}"
 			tasks: [{
 				id: "7EE96913B6D55662"
 				item: "gtceu:co_mn_br_catalyst_bucket"
@@ -1575,18 +1489,368 @@
 			y: 6.5d
 		}
 		{
+			description: ["{ftbquests.chapter.hv.quest102.description1}"]
 			id: "05305E873C1C92B5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "137AA366BCBE3CB8"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			shape: "rsquare"
 			size: 4.0d
-			subtitle: "如果你的钢多的用不完"
+			subtitle: "{ftbquests.chapter.hv.quest102.subtitle}"
 			tasks: [{
 				id: "559B2DB8804016D0"
-				item: "gtceu:fuel_refining_factory_mk1"
+				item: "ctnhcore:fuel_refining_factory"
 				type: "item"
 			}]
-			x: 14.785714285714285d
-			y: -1.5267857142857153d
+			x: 14.773809523809518d
+			y: -4.785714285714263d
+		}
+		{
+			id: "43DCA5278B555E39"
+			subtitle: "{ftbquests.chapter.hv.quest103.subtitle}"
+			tasks: [{
+				id: "123036F8278EBAE3"
+				title: "{ftbquests.chapter.hv.quest103.task_+1310607931008269027.title}"
+				type: "checkmark"
+			}]
+			x: 14.845238095238088d
+			y: -1.5714285714285552d
+		}
+		{
+			dependencies: ["054DC65B4D479B15"]
+			id: "1483311F032C96CB"
+			tasks: [{
+				id: "1D6ED8214F7DB6D2"
+				item: "gtceu:titanium_tetrachloride_v_bucket"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1483311F032C96CB"]
+			id: "2652B1546EB07C91"
+			tasks: [{
+				id: "0CDE455887127383"
+				item: "gtceu:titanium_tetrachloride_bucket"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2652B1546EB07C91"]
+			id: "1B795CD06F89FD31"
+			tasks: [{
+				id: "41517B29A39EA311"
+				item: "gtceu:refining_titanium_tetrachloride_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["773CB6E376B56EA4"]
+			id: "5F9A3ADA66BADAAB"
+			tasks: [{
+				id: "7305CCE440010B2E"
+				item: "gtceu:hv_laser_engraver"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["773CB6E376B56EA4"]
+			id: "5B59982256D4FE43"
+			tasks: [{
+				id: "3024D861534B3444"
+				item: "gtceu:hv_cutter"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5F9A3ADA66BADAAB"]
+			id: "73C47A52287562AD"
+			tasks: [{
+				id: "6B8AFBDA2154C906"
+				item: "gtceu:lpic_wafer"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"5B59982256D4FE43"
+				"73C47A52287562AD"
+			]
+			id: "43FD6E0F20509E3B"
+			tasks: [{
+				id: "3F691723233B4718"
+				item: "gtceu:lpic_chip"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["43FD6E0F20509E3B"]
+			hide_dependent_lines: true
+			id: "3763A1DEB0424140"
+			tasks: [{
+				id: "7C1C9A367760EB96"
+				item: "gtceu:hv_energy_input_hatch"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			hide_dependent_lines: true
+			id: "01C6E42C3A2CD71B"
+			invisible: true
+			tasks: [{
+				id: "528579830DAF60EC"
+				item: "gtceu:polyphenylene_sulfide_foil"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.5d
+		}
+		{
+			hide_dependent_lines: true
+			id: "5E26659E0AAF852A"
+			invisible: true
+			tasks: [{
+				id: "5610E9ED9C07C5A5"
+				item: "gtceu:para_aramid_foil"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 3.5d
+		}
+		{
+			hide_dependency_lines: true
+			id: "36707EABE35EE4A1"
+			invisible: true
+			tasks: [{
+				id: "3BE6374E7D829ECE"
+				item: "gtceu:polytetrafluoroethylene_foil"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 4.5d
+		}
+		{
+			hide_dependent_lines: true
+			id: "7A5FD21873050AFA"
+			invisible: true
+			tasks: [{
+				id: "6ED8EC939335234E"
+				item: "gtceu:fiber_glass_dust"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 5.5d
+		}
+		{
+			dependency_requirement: "one_completed"
+			hide_dependent_lines: true
+			id: "2A96D56A1C253D7A"
+			invisible: true
+			tasks: [{
+				id: "67A3C12A135B6D89"
+				item: "gtceu:titanium_ingot"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"1327BF0797F9200E"
+				"5CC2A3C37EB99ED3"
+				"279ED2DAD4CC60CD"
+			]
+			id: "7DD9B2E6104FFD7C"
+			tasks: [{
+				id: "2AC0B5451D1B0B08"
+				item: "gtceu:micro_processor"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7DD9B2E6104FFD7C"]
+			id: "36B5DCFEE8A73F25"
+			tasks: [{
+				id: "5FBDB0BF33493CD8"
+				item: "gtceu:micro_processor_assembly"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			id: "4FEF1435F8379246"
+			subtitle: "{ftbquests.chapter.hv.quest119.subtitle}"
+			tasks: [{
+				id: "694AEBE488F9A480"
+				item: "gtceu:crushed_nickel_ore"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4FEF1435F8379246"]
+			id: "67FD8ABB15A41C68"
+			tasks: [{
+				id: "31455B940096D11C"
+				item: "gtceu:platinum_metal_dust"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["36968F23015BC87A"]
+			id: "5871572C3F0A1CAB"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "{ftbquests.chapter.hv.quest121.subtitle}"
+			tasks: [{
+				id: "3E72DDEEAD18B789"
+				item: "ctnhcore:dimensional_gas_collection_chamber"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.0d
+		}
+		{
+			id: "1AEEB36389F68A28"
+			tasks: [{
+				id: "58460F9F5142F7EC"
+				title: "{ftbquests.chapter.hv.quest122.task_+6360788700644964332.title}"
+				type: "checkmark"
+			}]
+			x: -8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1AEEB36389F68A28"]
+			id: "79CF01CFCC2FF596"
+			tasks: [{
+				id: "5FEB9FCE490B8E6F"
+				item: "gtceu:nether_essence_crystal_fluid_bucket"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -3.0d
+		}
+		{
+			id: "4F78544FBE794648"
+			tasks: [{
+				id: "4319FB2B8D328F04"
+				item: "gtceu:small_nether_star_dust"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"4F78544FBE794648"
+				"79CF01CFCC2FF596"
+			]
+			id: "0F8A1D38DCB6CCE1"
+			subtitle: "{ftbquests.chapter.hv.quest125.subtitle}"
+			tasks: [{
+				id: "619A4F44D2B82E20"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"可配置维护仓可以让机器加工速度变快，代价是更容易出现维护问题 。                                                                          "
+				"自动维护仓可以让机器拜托维护问题，代价是它更贵！"
+			]
+			id: "51DB3A19B9180EC3"
+			subtitle: "两种的功能不同"
+			tasks: [
+				{
+					id: "3DEF3C9186CD79F0"
+					item: "gtceu:configurable_maintenance_hatch"
+					type: "item"
+				}
+				{
+					id: "3C661666500EC31E"
+					item: "gtceu:auto_maintenance_hatch"
+					type: "item"
+				}
+			]
+			title: "新的维护仓"
+			x: -8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0D100F330A65593F"]
+			id: "55762E03BC9AEA4F"
+			subtitle: "刺眼的烈日在天境中始终无法落下，一定是有什么神秘的力量阻止了我们科技的发展"
+			tasks: [{
+				id: "03EF8290A83EE485"
+				item: "ctnhcore:astronomical_observatory"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 1.0d
+		}
+		{
+			id: "2200E459E683E83E"
+			subtitle: "放入天文台中可以逐渐收集数据"
+			tasks: [{
+				id: "1C758EF3CA161F4C"
+				item: "ctnhcore:astronomy_circuit_1"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"55762E03BC9AEA4F"
+				"2200E459E683E83E"
+			]
+			id: "50800D463AF3C2EB"
+			tasks: [{
+				id: "6052FE3A73F43177"
+				item: "ctnhcore:great_astronomy_circuit_1"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["50800D463AF3C2EB"]
+			id: "1BAF86C7B922C673"
+			tasks: [{
+				id: "148C8AFB21A52F5F"
+				item: "ctnhcore:program_rocket_1"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.0d
 		}
 	]
-	title: "&6HV&r时期"
+	title: "{ftbquests.chapter.hv.title}"
 }

@@ -44,7 +44,8 @@ ServerEvents.recipes(event => {
         "alexscaves:azure_neodymium_ingot",
         "alexscaves:scarlet_neodymium_ingot",
         "create:crafting/kinetics/mechanical_bearing",
-        "sophisticatedbackpacks:netherite_backpack",
+        "biomesoplenty:tnt_from_bop_sand",
+        "mynethersdelight:tnt_alt",
         "expandedstorage:obsidian_to_netherite_conversion_kit",
         "enderio:alloy_smelting/pulsating_alloy_ingot",
         "enderio:alloy_smelting/vibrant_alloy_ingot",
@@ -107,7 +108,32 @@ ServerEvents.recipes(event => {
         "hostilenetworks:sim_chamber",
         "hostilenetworks:loot_fabricator",
         "hostilenetworks:deep_learner",
-        "hostilenetworks:framework"
+        "hostilenetworks:framework",
+        "ae2things:cells/disk_drive_1k",
+        "vintageimprovements:pressing/cobalt_ingot",
+        "vintageimprovements:pressing/rhodium_ingot",
+        "vintageimprovements:pressing/uranium_ingot",
+        "vintageimprovements:pressing/rose_gold_ingot",
+        "vintageimprovements:pressing/vanadium_ingot",
+        "vintageimprovements:pressing/invar_ingot",
+        "vintageimprovements:pressing/lead_ingot",
+        "vintageimprovements:pressing/tin_ingot",
+        "vintageimprovements:pressing/andesite_alloy",
+        "vintageimprovements:pressing/bronze_ingot",
+        "vintageimprovements:pressing/silver_ingot",
+        "vintageimprovements:pressing/platinum_ingot",
+        "vintageimprovements:pressing/palladium_ingot",
+        "vintageimprovements:pressing/zinc_ingot",
+        "vintageimprovements:pressing/nickel_ingot",
+        "vintageimprovements:pressing/osmium_ingot",
+        "aether:aether_saddle",
+        "gtceu:extruder/nan_certificate",
+        "vintageimprovements:pressurizing/sulfuric_acid",
+        "vintageimprovements:pressurizing/sulfur_trioxide_alt",
+        "vintageimprovements:pressurizing/sulfur_trioxide",
+        "vintageimprovements:pressurizing/sulfur_dioxide",
+        "vintageimprovements:craft/sulfur_items_to_block",
+        "enderio:sag_milling/ender_pearl"
     ])
     remove_recipes_output(event, [
         "create:cart_assembler",
@@ -135,7 +161,10 @@ ServerEvents.recipes(event => {
         "enderio:energetic_alloy_ingot",
         "ad_astra:desh_fluid_pipe",
         "ad_astra:ostrum_fluid_pipe",
-        "ad_astra:fluid_pipe_duct"
+        "ad_astra:fluid_pipe_duct",
+        /vintageimprovements:(.*)_sheet/,
+        /vintageimprovements:(.*)_rod/,
+        /vintageimprovements:(.*)_wire/
     ])
     remove_recipes_input(event, [
         "thermal:constantan_ingot",
@@ -157,9 +186,96 @@ ServerEvents.recipes(event => {
     event.remove({ mod: "createmetallurgy", not: { type: "createmetallurgy:belt_grinder" } })
     event.remove({ mod: "aether", type: "minecraft:crafting_shaped", id: /aether:skyroot_(.*)/ })
     event.remove({ id: "gtceu:large_chemical_reactor/raw_palladium_separation" })
-    event.remove({ id: "gtceu:electrolyzer/decomposition_electrolyzing_pyrochlore" })
-    event.remove({ id: "gtceu:electrolyzer/decomposition_electrolyzing_tantalite" })
     event.remove({ id: "gtceu:electrolyzer/decomposition_electrolyzing_niobium_oxide" })
     event.remove({ id: "gtceu:electrolyzer/decomposition_electrolyzing_tantalite_oxide" })
     event.remove({ id: "gtceu:centrifuge/rare_earth_separation" })
+    event.remove({ id: "gtceu:shaped/casing_hsse_sturdy" })
+    event.remove({ id: "gtceu:assembler/casing_hsse_sturdy" })
+    event.remove({ id: "gtceu:shaped/diamond_sword" })
+    event.remove({ id: "gtceu:electric_blast_furnace/titanium_from_tetrachloride" })
+    event.remove({ id: "gtceu:chemical_reactor/titaniumtetrachloride" })
+    event.remove({ id: "gtceu:electrolyzer/tungstic_acid_electrolysis" })
+    event.remove({ id: "gtceu:mixer/graphene" })
+    event.remove({ id: "gtceu:create_mixer/graphene" })
+    event.remove({ id: "ars_nouveau:novice_spell_book" })
+    event.remove({ id: "gtceu:neutron_activator/naquadah" })
+    event.remove({ id: "gtceu:large_chemical_reactor/iridium_chloride" })
+    event.remove({ id: "gtceu:large_chemical_reactor/iridium_dioxide_dissolving" })
+    event.remove({ id: "gtceu:electric_blast_furnace/iridium_metal_residue_processh" })
+    event.remove({ id: "gtceu:centrifuge/iridium_metal_residue_separation" })
+    event.remove({ id: "gtceu:chemical_reactor/iridium_chloride" })
+    event.remove({ id: "gtceu:large_chemical_reactor/iridium_chloride_separation" })
+    event.remove({ id: "gtceu:large_chemical_reactor/raw_platinum_separation" })
+    event.remove({ id: "gtceu:chemical_reactor/raw_platinum_separation" })
+    event.remove({ id: "gtceu:electric_blast_furnace/refined_platinum_salt_dust_ebf" })
+    event.remove({ id: "gtceu:electric_blast_furnace/iridium_metal_residue_process" })
+    event.remove({ id: "gtceu:centrifuge/platinum_group_sludge_dust" })
+    event.remove({ id: "gtceu:smelting/smelt_dust_bedrock_dust_to_ingot" })
+    event.remove({ id: "gtceu:arc_furnace/arc_bedrock_dust_dust" })
+    event.remove({ id: "vintageimprovements:curving/iron_sheet" })
+    event.remove({ id: "gtceu:chemical_reactor/indium_concentrate_separation" })
+    event.remove({ id: "gtceu:chemical_reactor/indium_concentrate_separation_4x" })
+    event.remove({ id: "gtceu:large_chemical_reactor/indium_concentrate_separation_4x" })
+    event.remove({ id: "gtceu:large_chemical_reactor/indium_concentrate_separation_4x" })
+    event.remove({ id: "gtceu:electrolyzer/decomposition_electrolyzing_aluminium_sulfite" })
+    event.remove({ id: "ironfurnaces:augments/augment_generator" })
+    event.remove({ id: "ironfurnaces:rainbow_plating" })
+    event.remove({ id: "gtceu:large_chemical_reactor/phosphoric_acid_from_pentoxide" })
+    event.remove({ id: "gtceu:bender/bend_graphite_ir_plate_ingot_to_double_plate" })
+    event.remove({ id: "gtceu:shaped/large_bronze_boiler" })
+    event.remove({ id: "gtceu:chemical_reactor/soda_ash_from_carbon_dioxide" })
+    event.remove({ id: "gtceu:electric_blast_furnace/blast_adamantite" })
+    event.remove({ id: "gtceu:fluid_solidifier/solidify_adamantite_to_plate" })
+    event.remove({ id: "gtceu:fluid_solidifier/solidify_adamantite_gear" })
+    event.remove({ id: "gtceu:fluid_solidifier/solidify_adamantite_block" })
+    event.remove({ id: "gtceu:fluid_solidifier/solidify_adamantite_to_ingot" })
+    event.remove({ id: "gtceu:fluid_solidifier/solidify_adamantite_small_gear" })
+    event.remove({ id: "gtceu:fluid_solidifier/solidify_adamantite_to_nugget" })
+    event.remove({ id: "gtceu:bender/bend_graphite_ir_plate_plate_to_double_plate" })
+    event.remove({ id: "gtceu:shaped/plate_double_graphite_ir_plate" })
+    event.remove({ id: "gtceu:chemical_reactor/iridium_dioxide_dissolving" })
+    event.remove({ id: "gtceu:chemical_reactor/iridium_chloride_separation" })
+    event.remove({ id: "gtceu:dehydrator/xenoauric_fluoroantimonic_acid" })
+    event.remove({ id: "createdieselgenerators:distillation/acid" })
+    event.remove({ id: "gtceu:assembly_line/energy_hatch_uhv" })
+    event.remove({ id: "gtceu:rocket_engine/rp_1_mixed_fuel" })
+    event.remove({ id: "gtceu:rocket_engine/methylhydrazine_nitrate_rocket_fuel" })
+    event.remove({ id: "gtceu:rocket_engine/udmh_rocket_fuel" })
+    event.remove({ id: "gtceu:rocket_engine/dense_hydrazine_mixed_fuel" })
+    event.remove({ id: "gtceu:gas_turbine/coal_gas" })
+    event.remove({ id: "gtceu:gas_turbine/wood_gas" })
+    event.remove({ id: "gtceu:combustion_generator/naphtha" })
+    event.remove({ id: "gtceu:combustion_generator/diesel" })
+    event.remove({ id: "gtceu:combustion_generator/light_fuel" })
+    event.remove({ id: "gtceu:shaped/filter_casing_sterile" })
+    event.remove({ id: "gtceu:shaped/maintenance_hatch_cleaning" })
+    event.remove({ id: "gtceu:kinetic_mixer/kinetic_mixer/graphene" })
+    event.remove({ id: "create:kjs/2cy39ggyi10fg4iscosa1udto" })
+    event.remove({ id: "extendedcrafting:black_iron_ingot" })
+    event.remove({ id: "extendedcrafting:basic_component" })
+    event.remove({ id: "extendedcrafting:advanced_component" })
+    event.remove({ id: "extendedcrafting:advanced_catalyst" })
+    event.remove({ id: "extendedcrafting:basic_catalyst" })
+    event.remove({ id: "extendedcrafting:elite_catalyst" })
+    event.remove({ id: "extendedcrafting:elite_component" })
+    event.remove({ id: "extendedcrafting:crystaltine_component" })
+    event.remove({ id: "extendedcrafting:crystaltine_catalyst" })
+    event.remove({ id: "extendedcrafting:ultimate_component" })
+    event.remove({ id: "extendedcrafting:ultimate_catalyst" })
+    event.remove({ id: "extendedcrafting:redstone_component" })
+    event.remove({ id: "extendedcrafting:redstone_catalyst" })
+    event.remove({ id: "ad_astra:steel_rod" })
+    event.remove({ id: "vintageimprovements:craft/steel_rod" })
+    event.remove({ id: "extendedcrafting:flux_crafter" })
+    event.remove({ id: "extendedcrafting:flux_alternator" })
+    event.remove({ id: "vintageimprovements:craft/nickel_rod"})
+    event.remove({ id: "vintageimprovements:craft/sulfur_item_to_nuggets"})
+    event.remove( {id: "vintageimprovements:craft/sulfur_nuggets_to_item"})
+    event.remove( {id: "vintageimprovements:craft/sulfur_block_to_items"})
+    event.remove({ id: "extendedcrafting:ender_alternator" })
+    event.remove({ id: "extendedcrafting:ender_crafter" })
+    event.remove({ id: "extendedcrafting:ender_catalyst" })
+    event.remove({ id: "extendedcrafting:ender_component" })
+    event.remove({ id: "gtceu:chemical_reactor/calcite_from_quicklime" })
+    event.remove({ id: "gtceu:extractor/extract_osmium_tetroxide_dust"})
 })

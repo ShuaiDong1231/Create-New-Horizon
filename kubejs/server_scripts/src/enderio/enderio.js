@@ -12,10 +12,15 @@ ServerEvents.recipes(event => {
     .duration(50)
     .itemInputs(['1x minecraft:iron_ingot', '1x minecraft:ender_pearl'])
     .itemOutputs('1x gtceu:pulsating_alloy_ingot')
-  event.recipes.gtceu.alloy_smelter('soularium_ingot')
+  event.recipes.gtceu.alloy_smelter('soularium_ingot1')
     .EUt(120)
     .duration(60)
-    .itemInputs(['1x minecraft:gold_ingot', '#forge:ground/soul'])
+    .itemInputs(['1x minecraft:gold_ingot', 'minecraft:soul_sand'])
+    .itemOutputs('1x gtceu:soularium_ingot')
+  event.recipes.gtceu.alloy_smelter('soularium_ingot2')
+    .EUt(120)
+    .duration(60)
+    .itemInputs(['1x minecraft:gold_ingot', 'minecraft:soul_soil'])
     .itemOutputs('1x gtceu:soularium_ingot')
   event.recipes.gtceu.alloy_smelter('copper_alloy_ingot')
     .EUt(120)
@@ -108,258 +113,16 @@ ServerEvents.recipes(event => {
   event.recipes.gtceu.assembler('pulsating_photovoltaic_block')
     .EUt(30)
     .duration(200)
-    .itemInputs(['2x gtceu:pulsating_alloy_plate', '2x enderio:photovoltaic_plate', 'kubejs:energetic_photovoltaic_block', '2x gtceu:tempered_glass'])
+    .itemInputs(['2x gtceu:pulsating_alloy_plate', '2x enderio:photovoltaic_plate', 'ctnhcore:energetic_photovoltaic_block', '2x gtceu:tempered_glass'])
     .itemOutputs('ctnhcore:pulsating_photovoltaic_block')
   event.recipes.gtceu.assembler('vibrant_photovoltaic_block')
     .EUt(30)
     .duration(200)
-    .itemInputs(['2x gtceu:vibrant_alloy_plate', '2x enderio:photovoltaic_plate', 'kubejs:pulsating_photovoltaic_block', '2x gtceu:tempered_glass'])
+    .itemInputs(['2x gtceu:vibrant_alloy_plate', '2x enderio:photovoltaic_plate', 'ctnhcore:pulsating_photovoltaic_block', '2x gtceu:tempered_glass'])
     .itemOutputs('ctnhcore:vibrant_photovoltaic_block')
 
   event.replaceInput({id:'enderio:fluid_conduit'},'#enderio:clear_glass','minecraft:glass')
-  /*event.custom(
-      {
-          "type": "enderio:alloy_smelting",
-          "energy": 4800,
-          "experience": 0.3,
-          "inputs": [
-            {
-              "count": 1,
-              "ingredient": {
-                "tag": "forge:dusts/redstone"
-              }
-            },
-            {
-              "count": 1,
-              "ingredient": {
-                "tag": "forge:ingots/gold"
-              }
-            },
-            {
-              "count": 1,
-              "ingredient": {
-                "tag": "forge:dusts/glowstone"
-              }
-            }
-          ],
-          "result": {
-            "item": "gtceu:energetic_alloy_ingot"
-          }
-        }
-  )
-  event.custom(
-      {
-          "type": "enderio:alloy_smelting",
-          "energy": 4800,
-          "experience": 0.3,
-          "inputs": [
-            {
-              "count": 1,
-              "ingredient": {
-                "tag": "forge:ingots/energetic_alloy"
-              }
-            },
-            {
-              "count": 1,
-              "ingredient": {
-                "tag": "forge:ender_pearls"
-              }
-            }
-          ],
-          "result": {
-            "item": "gtceu:vibrant_alloy_ingot"
-          }
-        }
-  )
-  event.custom(
-      {
-          "type": "enderio:alloy_smelting",
-          "energy": 6400,
-          "experience": 0.3,
-          "inputs": [
-            {
-              "count": 1,
-              "ingredient": {
-                "tag": "forge:ingots/iron"
-              }
-            },
-            {
-              "count": 1,
-              "ingredient": {
-                "tag": "forge:dusts/coal"
-              }
-            },
-            {
-              "count": 1,
-              "ingredient": {
-                "tag": "forge:obsidian"
-              }
-            }
-          ],
-          "result": {
-            "item": "gtceu:dark_steel_ingot"
-          }
-        }
-  )
-  event.custom(
-      {
-          "type": "enderio:alloy_smelting",
-          "energy": 3200,
-          "experience": 0.3,
-          "inputs": [
-            {
-              "count": 1,
-              "ingredient": {
-                "tag": "forge:ingots/copper"
-              }
-            },
-            {
-              "count": 1,
-              "ingredient": {
-                "tag": "forge:silicon"
-              }
-            }
-          ],
-          "result": {
-            "item": "gtceu:copper_alloy_ingot"
-          }
-        }
-  )
-  event.custom(
-      {
-          "type": "enderio:alloy_smelting",
-          "energy": 6400,
-          "experience": 0.3,
-          "inputs": [
-            {
-              "count": 1,
-              "ingredient": {
-                "tag": "forge:end_stones"
-              }
-            },
-            {
-              "count": 1,
-              "ingredient": {
-                "tag": "forge:ingots/dark_steel"
-              }
-            },
-            {
-              "count": 1,
-              "ingredient": {
-                "tag": "forge:obsidian"
-              }
-            }
-          ],
-          "result": {
-            "item": "gtceu:end_steel_ingot"
-          }
-        }
-  )
-  event.custom(
-      {
-          "type": "enderio:alloy_smelting",
-          "energy": 4800,
-          "experience": 0.3,
-          "inputs": [
-            {
-              "count": 1,
-              "ingredient": {
-                "tag": "forge:ingots/iron"
-              }
-            },
-            {
-              "count": 1,
-              "ingredient": {
-                "tag": "forge:ender_pearls"
-              }
-            }
-          ],
-          "result": {
-            "item": "gtceu:pulsating_alloy_ingot"
-          }
-        }
-  )
-  /*event.custom(
-      {
-          "type": "enderio:alloy_smelting",
-          "energy": 3200,
-          "experience": 0.3,
-          "inputs": [
-            {
-              "count": 1,
-              "ingredient": {
-                "tag": "forge:dusts/redstone"
-              }
-            },
-            {
-              "count": 1,
-              "ingredient": {
-                "tag": "forge:silicon"
-              }
-            }
-          ],
-          "result": {
-            "item": "gtceu:red_alloy_ingot"
-          }
-        }
-  )
-  event.custom(
-      {
-          "type": "enderio:alloy_smelting",
-          "energy": 5600,
-          "experience": 0.3,
-          "inputs": [
-            {
-              "count": 1,
-              "ingredient": [
-                {
-                  "item": "minecraft:soul_sand"
-                },
-                {
-                  "item": "minecraft:soul_soil"
-                }
-              ]
-            },
-            {
-              "count": 1,
-              "ingredient": {
-                "tag": "forge:ingots/gold"
-              }
-            }
-          ],
-          "result": {
-            "item": "gtceu:soularium_ingot"
-          }
-        }
-  )
-  event.custom(
-      {
-          "type": "enderio:alloy_smelting",
-          "energy": 4800,
-          "experience": 0.3,
-          "inputs": [
-            {
-              "count": 1,
-              "ingredient": {
-                "tag": "forge:ingots/copper_alloy"
-              }
-            },
-            {
-              "count": 1,
-              "ingredient": {
-                "tag": "forge:ingots/iron"
-              }
-            },
-            {
-              "count": 1,
-              "ingredient": {
-                "tag": "forge:dusts/redstone"
-              }
-            }
-          ],
-          "result": {
-            "item": "gtceu:conductive_alloy_ingot"
-          }
-        }
-  )*/
+  event.remove({id:'enderio:vibrant_capacitor_bank'})
+  event.remove({id:'enderio:advanced_capacitor_bank'})
+  event.replaceInput({id:'enderio:basic_capacitor_bank'},'minecraft:iron_ingot','gtceu:battery_alloy_plate')
 })

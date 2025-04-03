@@ -10,7 +10,7 @@
 		id: "793AA9FA1B76D96F"
 		linked_quest: "1162E347E7C00175"
 		x: -1.5d
-		y: -4.5d
+		y: -5.0d
 	}]
 	quests: [
 		{
@@ -25,9 +25,9 @@
 				item: "kubejs:steel_mechanism"
 				type: "item"
 			}]
-			title: "钢铁构件"
+			title: "{ftbquests.chapter.08AF6857D150C353.quest1.title}"
 			x: -1.5d
-			y: -1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["7D76859D3E40A235"]
@@ -37,20 +37,20 @@
 				item: "createdieselgenerators:engine_piston"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 2.0d
+			x: -3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["64C293C5E547D47D"]
 			id: "3672E16CD2C53B19"
-			subtitle: "用这个产应力挺好的"
+			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest3.subtitle}"
 			tasks: [{
 				id: "0A4B118AE7FAA844"
 				item: "createdieselgenerators:diesel_engine"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 3.5d
+			x: -3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -58,27 +58,27 @@
 				"10E9DB3C92C8B969"
 			]
 			description: [
-				"&a以下是搭建一台抽油机的基本顺序&r："
+				"{ftbquests.chapter.08AF6857D150C353.quest4.description1}"
 				""
-				"在离地 3 格（若稍后使用大号的抽油机曲柄则为 4 格）的位置放置一个抽油机轴承，作为抽油机臂的转轴；"
+				"{ftbquests.chapter.08AF6857D150C353.quest4.description2}"
 				""
-				"搭建前臂，从抽油机轴承的具有粘性的一段水平延伸数格&4（至少1格）&r，在末端放置一个抽油机驴头；"
+				"{ftbquests.chapter.08AF6857D150C353.quest4.description3}"
 				""
-				"在抽油机驴头正下方放置深至基岩层的竖直流体管道柱，在流体管道的上方放置抽油机油泵，在这一步中要确保抽油机油泵以及流体管道位于含油区块；"
+				"{ftbquests.chapter.08AF6857D150C353.quest4.description4}"
 				""
-				"搭建后臂，即将前臂反向延长数格&4（至少4格）&r，在末端放置一个抽油机轴承；"
+				"{ftbquests.chapter.08AF6857D150C353.quest4.description5}"
 				""
-				"使用扳手右击上一步放置的抽油机轴承，以转换其外观，并在其下方放置一个抽油机曲柄；"
+				"{ftbquests.chapter.08AF6857D150C353.quest4.description6}"
 				""
-				"使用强力胶黏合从抽油机臂一端的抽油机驴头到另一端的抽油机轴承；"
+				"{ftbquests.chapter.08AF6857D150C353.quest4.description7}"
 				""
-				"空手右击作为转轴的抽油机轴承，组装完成，输入旋转力并使用流体管道从抽油机油泵抽出原油即可。"
+				"{ftbquests.chapter.08AF6857D150C353.quest4.description8}"
 				"{@pagebreak}"
-				"原油输出的速度和几个因素有关："
+				"{ftbquests.chapter.08AF6857D150C353.quest4.description9}"
 				""
-				"1.输入的转速越高，抽取越快（注意转速到达一定数值之后，抽油机的转速不会再上升）"
-				"2.抽油机前臂：后臂的比值越大，抽取速度越快"
-				"3.大号抽油机比小号抽油机抽取速度快"
+				"{ftbquests.chapter.08AF6857D150C353.quest4.description10}"
+				"{ftbquests.chapter.08AF6857D150C353.quest4.description11}"
+				"{ftbquests.chapter.08AF6857D150C353.quest4.description12}"
 			]
 			id: "0DA7785CF55ABAAB"
 			tasks: [
@@ -90,7 +90,7 @@
 				{
 					count: 2L
 					id: "3C426FAD847BF672"
-					item: { Count: 2, id: "createdieselgenerators:pumpjack_bearing" }
+					item: "createdieselgenerators:pumpjack_bearing"
 					type: "item"
 				}
 				{
@@ -104,9 +104,9 @@
 					type: "item"
 				}
 			]
-			title: "原油抽取"
-			x: 5.0d
-			y: 0.0d
+			title: "{ftbquests.chapter.08AF6857D150C353.quest4.title}"
+			x: 2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["1162E347E7C00175"]
@@ -116,8 +116,8 @@
 				item: "kubejs:steel_casing"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -1.5d
+			x: 0.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -130,8 +130,8 @@
 				item: "gtceu:impure_oil_bucket"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 2.0d
+			x: 4.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["1162E347E7C00175"]
@@ -142,7 +142,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -1.5d
+			y: -7.0d
 		}
 		{
 			id: "2D138FB6F66ED4D5"
@@ -151,20 +151,20 @@
 				item: "createdieselgenerators:distillation_controller"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["3672E16CD2C53B19"]
 			id: "24A3BEAC1C62DFEC"
-			subtitle: "更大更专业"
+			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest9.subtitle}"
 			tasks: [{
 				id: "7BFAEFB1D5014A2B"
 				item: "createdieselgenerators:large_diesel_engine"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 5.0d
+			x: -3.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -173,15 +173,15 @@
 			]
 			hide_dependency_lines: false
 			id: "470B9D39E23E01F2"
-			subtitle: "最好在冬天去"
+			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest10.subtitle}"
 			tasks: [{
 				dimension: "minecraft:the_nether"
 				id: "39382193B16E173D"
-				title: "访问下界"
+				title: "{ftbquests.chapter.08AF6857D150C353.quest10.task_+4123082377078380349.title}"
 				type: "dimension"
 			}]
-			x: 3.0d
-			y: -4.5d
+			x: 2.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["1162E347E7C00175"]
@@ -190,7 +190,7 @@
 				command: "/gamephase add @p nether"
 				elevate_perms: true
 				id: "73102DDDEA76B9E4"
-				title: "前往下界"
+				title: "{ftbquests.chapter.08AF6857D150C353.quest11.reward_8291177345133754852.title}"
 				type: "command"
 			}]
 			tasks: [{
@@ -204,8 +204,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: -4.5d
+			x: 0.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["6397FCC9081360A5"]
@@ -216,43 +216,43 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 5.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["7EF838EF4607A41D"]
 			id: "0AE0727C431D39A5"
-			subtitle: "留到MV进行处理"
+			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest13.subtitle}"
 			tasks: [{
 				id: "4819ADF162A3E004"
 				item: "gtceu:oil_bucket"
 				type: "item"
 			}]
 			x: 2.0d
-			y: 9.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["6397FCC9081360A5"]
 			id: "31105ADA8A75BD01"
-			subtitle: "可以烧，也可以留到MV后续处理"
+			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest14.subtitle}"
 			tasks: [{
 				id: "00F4CFFD57E04AFB"
 				item: "gtceu:sulfuric_naphtha_bucket"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 5.0d
+			x: 3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6397FCC9081360A5"]
 			id: "327A7C4C3C7404CC"
-			subtitle: "可以烧，也可以留到MV后续处理"
+			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest15.subtitle}"
 			tasks: [{
 				id: "423F14BBB55CD067"
 				item: "gtceu:sulfuric_heavy_fuel_bucket"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 5.0d
+			x: 3.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["78C907D8AEA05A18"]
@@ -262,8 +262,8 @@
 				item: "gtceu:emulsified_bitumen_bucket"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 8.0d
+			x: 1.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -276,8 +276,8 @@
 				item: "gtceu:simple_emulgator_bucket"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 6.5d
+			x: 1.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -290,8 +290,8 @@
 				item: "gtceu:emulsified_bitumen_slurry_bucket"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 6.5d
+			x: 1.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["08C88706F994E458"]
@@ -301,20 +301,20 @@
 				item: "gtceu:soda_ash_dust"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 5.0d
+			x: 1.0d
+			y: 1.5d
 		}
 		{
-			description: ["猪牛羊马"]
+			description: ["{ftbquests.chapter.08AF6857D150C353.quest20.description1}"]
 			id: "25373674A1A9932C"
-			subtitle: "屠刀杀部分动物获得"
+			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest20.subtitle}"
 			tasks: [{
 				id: "4149619485BBB7D2"
 				item: "kubejs:tallow"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 5.0d
+			x: 0.0d
+			y: 4.5d
 		}
 		{
 			id: "08C88706F994E458"
@@ -323,8 +323,8 @@
 				item: "gtceu:raw_trona"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 2.0d
+			x: 1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -337,8 +337,8 @@
 				item: "gtceu:pure_bitumen_bucket"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 8.0d
+			x: 3.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -351,8 +351,8 @@
 				item: "gtceu:simple_demulsifier_bucket"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 6.5d
+			x: 2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1209F38D296109C7"]
@@ -362,8 +362,8 @@
 				item: "gtceu:diluted_sulfuric_acid_bucket"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 5.0d
+			x: 2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["7EF838EF4607A41D"]
@@ -374,7 +374,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 9.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["56BA200ABCEABC7A"]
@@ -385,7 +385,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 11.0d
+			y: 7.5d
 		}
 		{
 			dependencies: [
@@ -399,7 +399,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 2.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["06B1BB32F96710A2"]
@@ -410,18 +410,19 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 3.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["06B1BB32F96710A2"]
 			id: "2C18C2C4CA54D968"
+			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest29.subtitle}"
 			tasks: [{
 				id: "2365A1402342CBDF"
 				item: "gtceu:fermented_biomass_bucket"
 				type: "item"
 			}]
 			x: -5.5d
-			y: 5.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["41BB77968B763B18"]
@@ -432,19 +433,19 @@
 				type: "item"
 			}]
 			x: -5.5d
-			y: 2.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["189EA0629CFAD1AB"]
 			id: "41BB77968B763B18"
-			subtitle: "耐心等待收获的降临"
+			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest31.subtitle}"
 			tasks: [{
 				id: "7F90E118B46EDCFA"
 				item: "farmersdelight:rich_soil"
 				type: "item"
 			}]
 			x: -5.5d
-			y: 0.0d
+			y: -4.0d
 		}
 		{
 			id: "189EA0629CFAD1AB"
@@ -454,7 +455,7 @@
 				type: "item"
 			}]
 			x: -5.5d
-			y: -2.0d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -468,7 +469,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["3C2319F21ED52FAE"]
@@ -479,7 +480,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 5.0d
+			y: 0.0d
 		}
 		{
 			id: "712E77CB55012649"
@@ -492,23 +493,23 @@
 						value: "forge:seeds"
 					}
 				}
-				title: "Any #forge:seeds"
+				title: "{ftbquests.chapter.08AF6857D150C353.quest35.task_+998343428217363319.title}"
 				type: "item"
 			}]
-			title: "种子"
+			title: "{ftbquests.chapter.08AF6857D150C353.quest35.title}"
 			x: 0.0d
-			y: 0.0d
+			y: -3.0d
 		}
 		{
 			id: "10E9DB3C92C8B969"
-			subtitle: "用这个去寻找地底的石油"
+			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest36.subtitle}"
 			tasks: [{
 				id: "242E7A295BA60586"
 				item: "createdieselgenerators:oil_scanner"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 0.0d
+			x: 4.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -521,8 +522,8 @@
 				item: "gtceu:lp_steam_furnace"
 				type: "item"
 			}]
-			x: -13.0d
-			y: -2.0d
+			x: -12.5d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -535,8 +536,8 @@
 				item: "gtceu:lp_steam_alloy_smelter"
 				type: "item"
 			}]
-			x: -11.5d
-			y: -2.0d
+			x: -10.5d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -544,14 +545,14 @@
 				"77EA82987E62F815"
 			]
 			id: "57D8025474402FA3"
-			subtitle: "早期的大型蒸汽机器是你最好的伙伴！"
+			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest39.subtitle}"
 			tasks: [{
 				id: "0EAEDC8B3E19022F"
 				item: "gtceu:lp_steam_macerator"
 				type: "item"
 			}]
-			x: -10.0d
-			y: -2.0d
+			x: -12.5d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -564,8 +565,8 @@
 				item: "gtceu:lp_steam_extractor"
 				type: "item"
 			}]
-			x: -8.5d
-			y: -2.0d
+			x: -11.5d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -578,8 +579,8 @@
 				item: "gtceu:lp_steam_compressor"
 				type: "item"
 			}]
-			x: -7.0d
-			y: -2.0d
+			x: -10.5d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -592,8 +593,8 @@
 				item: "gtceu:hp_steam_furnace"
 				type: "item"
 			}]
-			x: -12.5d
-			y: -1.0d
+			x: -13.5d
+			y: -5.5d
 		}
 		{
 			dependencies: [
@@ -606,8 +607,8 @@
 				item: "gtceu:hp_steam_alloy_smelter"
 				type: "item"
 			}]
-			x: -11.5d
-			y: -1.0d
+			x: -10.0d
+			y: -7.0d
 		}
 		{
 			dependencies: [
@@ -615,14 +616,14 @@
 				"57D8025474402FA3"
 			]
 			id: "72BEE751463CEE51"
-			subtitle: "早期的大型蒸汽机器是你最好的伙伴！"
+			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest44.subtitle}"
 			tasks: [{
 				id: "641BE3DB323A8223"
 				item: "gtceu:hp_steam_macerator"
 				type: "item"
 			}]
-			x: -9.5d
-			y: -1.0d
+			x: -13.0d
+			y: -7.0d
 		}
 		{
 			dependencies: [
@@ -635,8 +636,8 @@
 				item: "gtceu:hp_steam_extractor"
 				type: "item"
 			}]
-			x: -8.5d
-			y: -1.0d
+			x: -11.5d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -649,21 +650,21 @@
 				item: "gtceu:hp_steam_compressor"
 				type: "item"
 			}]
-			x: -7.5d
-			y: -1.0d
+			x: -9.5d
+			y: -5.5d
 		}
 		{
-			dependencies: ["1162E347E7C00175"]
-			description: ["但是效率孰高孰低呢？"]
+			dependencies: ["5CF2A3DF0B2E6729"]
+			description: ["{ftbquests.chapter.08AF6857D150C353.quest47.description1}"]
 			id: "77EA82987E62F815"
-			subtitle: "有些机器可以用多方块结构形式进行“升级”"
+			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest47.subtitle}"
 			tasks: [{
 				id: "0810C4B258493E40"
-				title: "机器升级 "
+				title: "{ftbquests.chapter.08AF6857D150C353.quest47.task_+581180622195211840.title}"
 				type: "checkmark"
 			}]
-			x: -10.0d
-			y: -4.5d
+			x: -11.5d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -671,14 +672,14 @@
 				"57D8025474402FA3"
 			]
 			id: "6139B36AAB4D0E0D"
-			subtitle: "早期的大型蒸汽机器是你最好的伙伴！"
+			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest48.subtitle}"
 			tasks: [{
 				id: "43BF76A3183AC1AE"
 				item: "gtceu:steam_grinder"
 				type: "item"
 			}]
-			x: -10.5d
-			y: -1.0d
+			x: -12.0d
+			y: -7.0d
 		}
 		{
 			dependencies: [
@@ -692,23 +693,23 @@
 				type: "item"
 			}]
 			x: -13.5d
-			y: -1.0d
+			y: -4.5d
 		}
 		{
 			dependencies: [
 				"7D76859D3E40A235"
 				"64694E06DCC27AE1"
 			]
-			description: ["    给蒸汽引擎供水时，最好使用gt或者enderio的管道，以免在睡觉加速时间时引发供水不足的bug"]
+			description: ["{ftbquests.chapter.08AF6857D150C353.quest50.description1}"]
 			id: "680EE95FED0F46F5"
-			subtitle: "你即将进入第一次工业革命！"
+			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest50.subtitle}"
 			tasks: [{
 				id: "0FE3911E3029D145"
 				item: "create:steam_engine"
 				type: "item"
 			}]
 			x: -1.5d
-			y: 5.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4A20A744ACDB0ABF"]
@@ -719,7 +720,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 5.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -727,16 +728,16 @@
 				"31BA6652FDB500C3"
 				"2D138FB6F66ED4D5"
 			]
-			description: ["来自毒化洞穴，那是粗心人的致命之地"]
+			description: ["{ftbquests.chapter.08AF6857D150C353.quest52.description1}"]
 			id: "1209F38D296109C7"
-			subtitle: "看似是废液，也许比你想象中更有用......"
+			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest52.subtitle}"
 			tasks: [{
 				id: "4B1114D3CEBC9420"
 				item: "alexscaves:acid_bucket"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 2.0d
+			x: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -744,37 +745,25 @@
 				"1385760305EE11D6"
 			]
 			id: "62BAC5BC588E4CAA"
-			subtitle: "通过磁场洞穴中的青钕和赤钕，或者是植物魔法的磁化透镜磁化获得"
+			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest53.subtitle}"
 			tasks: [{
 				id: "3CD9D89EFFFDDA64"
 				item: "gtceu:magnetic_iron_ingot"
 				type: "item"
 			}]
 			x: 0.0d
-			y: 6.5d
-		}
-		{
-			dependencies: ["62BAC5BC588E4CAA"]
-			id: "5330148B0417ED4E"
-			tasks: [{
-				id: "7145EBACDBA0A47F"
-				item: "gtceu:magnetic_iron_dust"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 8.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
-				"1B142F4B0CF620D3"
-				"5330148B0417ED4E"
 				"680EE95FED0F46F5"
 				"24A3BEAC1C62DFEC"
+				"62BAC5BC588E4CAA"
 			]
 			dependency_requirement: "one_completed"
-			description: ["    越高级的磁铁发电的效率越高（也就是相同应力转化为RF的电量更多）"]
+			description: ["{ftbquests.chapter.08AF6857D150C353.quest55.description1}"]
 			id: "2D9F762371DEDF70"
-			subtitle: "磁生电"
+			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest55.subtitle}"
 			tasks: [
 				{
 					id: "18762930299222CA"
@@ -793,43 +782,20 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
-			y: 8.0d
+			x: -1.5d
+			y: 1.5d
 		}
 		{
-			dependencies: ["2D9F762371DEDF70"]
+			dependencies: ["41E48BCAEAD9D47E"]
 			id: "54A0B48F51F12647"
-			subtitle: "GT，启动！"
+			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest56.subtitle}"
 			tasks: [{
 				id: "3F5BE8B5242E5FC9"
 				item: "gtceu:lv_1a_energy_converter"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 11.0d
-		}
-		{
-			dependencies: [
-				"4FAA88CA15F02159"
-				"470B9D39E23E01F2"
-			]
-			description: ["不带会热到晕厥（撅撅你的）"]
-			id: "5A14A8CA4E662202"
-			subtitle: "下界探险必备"
-			tasks: [{
-				id: "1559585F30AAE988"
-				item: {
-					Count: 1
-					id: "cold_sweat:soulspring_lamp"
-					tag: {
-						Fuel: 64.0d
-						Lit: 1b
-					}
-				}
-				type: "item"
-			}]
-			x: 5.0d
-			y: -4.5d
+			x: -1.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["6C2A870EFAAABF9B"]
@@ -839,8 +805,8 @@
 				item: "gtceu:steam_pressor"
 				type: "item"
 			}]
-			x: -6.5d
-			y: -1.0d
+			x: -9.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["0798C9DDF9DCB4C0"]
@@ -850,9 +816,302 @@
 				item: "gtceu:steam_foundry"
 				type: "item"
 			}]
+			x: -11.0d
+			y: -7.0d
+		}
+		{
+			id: "3A2D6EEBA8A75B83"
+			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest59.subtitle}"
+			tasks: [{
+				id: "45DE9D326C667C29"
+				item: "vintageimprovements:laser"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5C2E8CF9DF1A76F4"]
+			id: "589F78888F04CA35"
+			tasks: [{
+				id: "52E4279EC9482BD3"
+				item: "gtceu:hp_steam_solid_boiler"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["77EA82987E62F815"]
+			id: "5C2E8CF9DF1A76F4"
+			tasks: [{
+				id: "4497AC8154819CF0"
+				item: "gtceu:lp_steam_solid_boiler"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2067458624653B8F"]
+			id: "5899C0841A9A178B"
+			tasks: [{
+				id: "5E4A49BA9AFCF4F2"
+				item: "gtceu:hp_steam_liquid_boiler"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["77EA82987E62F815"]
+			id: "2067458624653B8F"
+			tasks: [{
+				id: "621CD47CE14621E0"
+				item: "gtceu:lp_steam_liquid_boiler"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -4.0d
+		}
+		{
+			id: "23FD399F5B59DA53"
+			tasks: [{
+				id: "305EC3B3A83A2EDE"
+				item: "gtceu:sticky_resin"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"46D539BDB8CECDE1"
+				"4B90C12A9AD3F488"
+				"3A2D6EEBA8A75B83"
+			]
+			dependency_requirement: "one_completed"
+			id: "2CB9C64B6AD4B61B"
+			tasks: [{
+				id: "572C7F73420A622C"
+				item: "gtceu:resin_printed_circuit_board"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["23FD399F5B59DA53"]
+			id: "0B8D27D4FAA175B9"
+			tasks: [{
+				id: "7DDBFF0CEF22DC71"
+				item: "gtceu:resistor"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.5d
+		}
+		{
+			id: "3AFD46E811ED67AD"
+			tasks: [{
+				id: "75367300CC5F4995"
+				item: "gtceu:vacuum_tube"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"2CB9C64B6AD4B61B"
+				"3A2D6EEBA8A75B83"
+				"0B8D27D4FAA175B9"
+				"2866385471094DB9"
+			]
+			dependency_requirement: "one_completed"
+			description: ["{ftbquests.chapter.08AF6857D150C353.quest68.description1}"]
+			id: "41E48BCAEAD9D47E"
+			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest68.subtitle}"
+			tasks: [{
+				id: "4642660A4797E594"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["470B9D39E23E01F2"]
+			id: "23EB2E3C95D020C6"
+			tasks: [{
+				id: "64FF21111F96EC3F"
+				item: "gtceu:sulfur_dust"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["23FD399F5B59DA53"]
+			id: "46D539BDB8CECDE1"
+			tasks: [{
+				id: "6F1666173DF37898"
+				item: "gtceu:resin_circuit_board"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			id: "67EA5AED4C89F28E"
+			tasks: [{
+				id: "7466B7660A4991D8"
+				item: "vintageimprovements:helve_hammer"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["67EA5AED4C89F28E"]
+			id: "4B90C12A9AD3F488"
+			tasks: [{
+				id: "1407C9F660BC9038"
+				item: "gtceu:copper_foil"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"2D9F762371DEDF70"
+				"3AFD46E811ED67AD"
+			]
+			id: "2866385471094DB9"
+			tasks: [{
+				id: "1494ABEC12B465FD"
+				item: "gtceu:ulv_1a_energy_converter"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.08AF6857D150C353.quest74.description1}"
+				"{ftbquests.chapter.08AF6857D150C353.quest74.description2}"
+				"{ftbquests.chapter.08AF6857D150C353.quest74.description3}"
+			]
+			id: "3942AF99CAFEF32C"
+			tasks: [{
+				id: "0F07A6703A44723A"
+				title: "{ftbquests.chapter.08AF6857D150C353.quest74.task_+1083017236350005818.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.08AF6857D150C353.quest74.title}"
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["77EA82987E62F815"]
+			description: ["{ftbquests.chapter.08AF6857D150C353.quest75.description1}"]
+			id: "4E153836BC53CDD1"
+			shape: "gear"
+			size: 3.0d
+			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest75.subtitle}"
+			tasks: [{
+				id: "2C454A9B147379F9"
+				item: "ctnhcore:martial_morality_eye"
+				type: "item"
+			}]
 			x: -11.5d
-			y: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3AFD46E811ED67AD"]
+			id: "10E46AEB034C47B6"
+			tasks: [{
+				id: "799C276593ADC318"
+				item: "gtceu:bronze_large_boiler"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["41E48BCAEAD9D47E"]
+			description: [
+				"{ftbquests.chapter.08AF6857D150C353.quest77.description1}"
+				"{ftbquests.chapter.08AF6857D150C353.quest77.description2}"
+				"{ftbquests.chapter.08AF6857D150C353.quest77.description3}"
+			]
+			icon: "ctpp:kinetic_steam_turbine"
+			id: "11CBD66BE7CCCAED"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "162551D8AEA3417B"
+				table_id: 601634794626000726L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest77.subtitle}"
+			tasks: [
+				{
+					id: "4C40156588431040"
+					item: "ctpp:kinetic_steam_turbine"
+					type: "item"
+				}
+				{
+					count: 27L
+					id: "21D1AE83E2EEC142"
+					item: "gtceu:steam_machine_casing"
+					type: "item"
+				}
+				{
+					id: "6A5577F1BAF07D40"
+					item: {
+						Count: 1
+						id: "gtceu:turbine_rotor"
+						tag: {
+							GT.PartStats: {
+								Material: "gtceu:steel"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "2D944EAAD01B6494"
+					item: "gtceu:bronze_gearbox"
+					type: "item"
+				}
+				{
+					id: "0B0A337F7CA2BDAF"
+					item: "gtceu:maintenance_hatch"
+					type: "item"
+				}
+				{
+					id: "61684B327717E0A6"
+					item: "ctnhcore:ulv_rotor_holder"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1162E347E7C00175"]
+			id: "4ADE322F099F1C88"
+			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest78.subtitle}"
+			tasks: [{
+				id: "7ED1ABAE538B0BC5"
+				item: "ctnhcore:advanced_coke_oven"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.0d
 		}
 	]
-	title: "钢铁时代"
+	title: "{ftbquests.chapter.08AF6857D150C353.title}"
 }
